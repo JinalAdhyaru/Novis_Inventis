@@ -573,13 +573,15 @@ ul.faq li > div h3 {
 }
 
 .blog .blog-item .blog-content h4 {
-  color: #858586;
+  /* color: #858586; */
   margin-bottom: 40px;
+  font-weight: bold;
   /* font-weight: 300 */}
 
 .blog .blog-item .blog-content p {
   font-size: 13px;
-  color:#858586;
+  font-weight: bold;
+  /* color:#858586; */
 }
 
 .blog .blog-item .entry-meta {

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+  <title>Novis Inventis</title>
+  
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">        
+            <div class="navbar-brand" style="margin-bottom: 30px; margin-left: 610px;">
+              <h1><span>N</span>ovis <span>I</span>nventis</h1>
+            </div>   
+            <a style="color: white;" href="/logout"><button class="btn btn-primary" style="margin-top: -50px; background-color: #ED502E; margin-left: 1223px;">Logout</button></a>
+    </nav>
+  </header>
+      
+
+
+    <div class="container" style="margin-bottom: 50px;">
+        <h2>Add new data.</h2>
+        <a style="color: white;" href="/compose"><button class="btn btn-primary" style="background-color: #ED502E;">Add</button></a><br>
+        <h2>Update the current data.</h2>
+        <a style="color: white;" href="/update"><button class="btn btn-primary" style="background-color: #ED502E;">Update</button></a><br>
+        <h2>Delete a data.</h2>
+        <a style="color: white;" href="/delete"><button class="btn btn-primary" style="background-color: #ED502E;">Delete</button></a><br>
+    </div>
+    
+<%- include("partials/footer"); -%>

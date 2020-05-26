@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+  <title>Novis Inventis</title>
+  
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="navbar-brand">
+              <a href="index.html"><h1><span>N</span>ovis <span>I</span>nventis</h1></a>
+            </div>
+          </div>
+
+          <a style="color: white;" href="/logout"><button class="btn btn-primary" style="margin-top: -50px; background-color: #ED502E; margin-left: 1223px;">Logout</button></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+<div class="container">  
+    <h1 style="text-align: center;">Delete an Award</h1><br>
+    <form action="/deleteAward" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Name of the award</label><br>
+            <input type="text" class="form-control" name="awardName"  required><br>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Delete</button><br><br><br>
+    </form>
+</div>
+
+
+<div class="container">  
+    <h1 style="text-align: center;">Delete from Categories</h1><br>
+    <form action="/deleteCategory" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Title</label><br>
+            <input type="text" class="form-control" name="categoryTitle"  required><br>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Delete</button><br><br><br>
+    </form>
+</div>
+
+<%- include("partials/footer"); -%>

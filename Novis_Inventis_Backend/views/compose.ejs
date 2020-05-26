@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+
+<div class="container">  
+    <h1 style="text-align: center;">Add an Award</h1><br>
+    <form action="/composeAward" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Name of the award</label><br>
+            <input type="text" class="form-control" name="awardName"><br>
+            <label for="" style="color: black;">Description</label><br>
+            <textarea name="awardDescription" class="form-control" cols="30" rows="5"></textarea>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
+    </form>
+</div>
+
+
+<div class="container">  
+    <h1 style="text-align: center;">Add inside Categories</h1><br>
+    <form action="/composeCategory" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Name of the Category</label><br>
+            <input type="text" class="form-control" name="categoryName"><br>
+            <label for="" style="color: black;">Title</label><br>
+            <input type="text" class="form-control" name="categoryTitle"><br>
+            <label for="" style="color: black;">Content</label><br>
+            <textarea name="categoryContent" class="form-control" cols="30" rows="5"></textarea>
+        </div>
+        <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
+    </form>
+</div>
+
+<%- include("partials/footer"); -%>

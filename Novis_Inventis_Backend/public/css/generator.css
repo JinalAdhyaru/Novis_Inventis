@@ -1,0 +1,74 @@
+#QuoteDisplay {
+    background-color: #3B3837;
+    /*#ED502E*/
+    font-family:'Open Sans', Arial, sans-serif;
+	font-size:100px;
+    font-weight: bold;
+    width: 1250px;
+    height: 500px;
+    margin-left: 100px;
+    text-align: center;
+}   
+
+.set {
+    height: 500px;
+    width: 600px;
+    
+}
+
+#style {
+    font-family: Comic Sans MS;
+    align-items: center;
+    font-size: 70px;
+}
+
+#alignment {
+  width: 150px;
+  text-align: center;
+  margin:0 auto;
+  margin-left: 650px;
+  background-color: darkgrey;
+  color: white;
+}
+
+.color {
+    color: black;
+    font-size: medium;
+}
+
+.font {
+    display: inline-block;
+  font-family: Open Sans ; 
+  font-style: normal;
+  font-weight: 0px;
+  font-size: 20px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.size {
+    font-size: 20px;
+    color: black;
+   
+}
+
+.para {
+    font-size: medium;
+    margin-left: 650px;
+    
+}
+
+.white {
+    color: white;    
+}
+
+.span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.card-title {
+    text-decoration: underline;
+}
+

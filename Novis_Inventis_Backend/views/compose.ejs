@@ -33,13 +33,17 @@
 
 <div class="container">  
     <h1 style="text-align: center;">Add an Award</h1><br>
-    <form action="/composeAward" method="POST" autocomplete="off">
+    <form action="/composeAward" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="form-group">
             <label for="" style="color: black;">Name of the award</label><br>
             <input type="text" class="form-control" name="awardName"  required><br>
             <label for="" style="color: black;">Description</label><br>
-            <textarea name="awardDescription" class="form-control" cols="30" rows="5"  required></textarea>
-        </div>
+            <textarea name="awardDescription" class="form-control" cols="30" rows="5"  required></textarea> <br>
+                 <div class="custom-file mb-3">
+                  <input type="file" name="file" id="file" class="custom-file-input">
+                  <label for="file" class="custom-file-label">Choose File</label>
+              </div>
+           </div>
         <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
     </form>
 </div>
@@ -47,7 +51,7 @@
 
 <div class="container">  
     <h1 style="text-align: center;">Add inside Categories</h1><br>
-    <form action="/composeCategory" method="POST" autocomplete="off">
+    <form action="/composeCategory" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="form-group">
             <label for="" style="color: black;">Name of the Category</label><br>
             <input type="text" class="form-control" name="categoryName"  required><br>
@@ -55,9 +59,14 @@
             <input type="text" class="form-control" name="categoryTitle"  required><br>
             <label for="" style="color: black;">Content</label><br>
             <textarea name="categoryContent" class="form-control" cols="30" rows="5"  required></textarea>
+            <div class="custom-file mb-3">
+              <input type="file" name="file" id="file" class="custom-file-input">
+              <label for="file" class="custom-file-label">Choose File</label>
+          </div>
         </div>
         <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
     </form>
 </div>
 
 <%- include("partials/footer"); -%>
+

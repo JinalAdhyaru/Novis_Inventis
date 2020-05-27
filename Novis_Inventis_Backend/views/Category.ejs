@@ -1,8 +1,17 @@
 <%- include("partials/header"); -%>
 
 <div class="container" style="margin-bottom: 200px; ">
-<h1><%= name %></h1> 
-<h3><%= title %></h3>
+    <% if(files){ %>
+        <% for(var j=0;j<files.length;j++) {%>
+              <% file = files[j] %>
+              <% const filename = title + ".jpg"; %>  
+               <% if(file.isImage && file.filename == filename) { %>
+                <img class="img-responsive" src="image/<%= file.filename %>" alt="">
+                    <% break; %>                                      
+               <% } %>
+                 <% } %>
+                 <% } %>
+        <h3><%= title %></h3>
 <p style="color: black;"><%= content %></p>
 </div>
 

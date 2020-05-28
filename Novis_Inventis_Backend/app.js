@@ -102,6 +102,14 @@ app.get("/", function(req,res) {
     res.render("index");
 });
 
+app.get("/imageAward", function(req,res) {
+  res.render("imageAward");
+});
+
+app.get("/imageCategory", function(req,res) {
+  res.render("imageCategory");
+});
+
 app.get("/services", function(req,res) {
     res.render("services");
 });
@@ -316,6 +324,7 @@ app.post("/login",function(req,res){
 
 app.post("/updateAwardDesc",function(req,res){
     Award.updateOne({name: req.body.awardName}, {description: req.body.awardDescription}, function(err){
+      console.log(req.body.awardName);
       if(err) {
         console.log(err);
       }
@@ -326,31 +335,31 @@ app.post("/updateAwardDesc",function(req,res){
 });
 
 app.post("/updateAwardImage",upload.single('file'),function(req,res){
-  res.redirect("/changes");
-});
-
-app.post("/updateImage",function(req,res){
-  const name = req.body.awardName + ".jpg";
+  const name = req.body.NameOfTheAward + ".jpg";
+  console.log(name);
   gfs.files.findOne({filename : name}, (err, file) =>{
     // Check if file exists at all
+    console.log(file);
     if( !file || file.length === 0){
         console.log("There was no image");
         console.log(file);
-        res.render("image");
+        res.render("changes");
     }
     else {
       gfs.remove({ _id: file._id, root: 'uploads' }, (err, gridStore) => {
         if (err) {
           console.log(err);
         }        
-        console.log("deleted successfully ");
-        res.render("image");
+        console.log("deleted successfully");
+        res.render("changes");
       });    
     }
-})        
+  })        
 });
 
-app.post("/updateCategory",upload.single('file'), function(req,res){
+
+
+app.post("/updateCategoryContent", function(req,res){
     Category.updateOne({title: req.body.categoryTitle}, {content: req.body.categoryContent}, function(err){
       if(err) {
         console.log(err);
@@ -360,6 +369,30 @@ app.post("/updateCategory",upload.single('file'), function(req,res){
       }
     })
 });
+
+app.post("/updateCategoryImage",upload.single('file'),function(req,res){
+  const name = req.body.title + ".jpg";
+  console.log(name);
+  gfs.files.findOne({filename : name}, (err, file) =>{
+    // Check if file exists at all
+    console.log(file);
+    if( !file || file.length === 0){
+        console.log("There was no image");
+        console.log(file);
+        res.render("changes");
+    }
+    else {
+      gfs.remove({ _id: file._id, root: 'uploads' }, (err, gridStore) => {
+        if (err) {
+          console.log(err);
+        }        
+        console.log("deleted successfully");
+        res.render("changes");
+      });    
+    }
+  })        
+});
+
 
   
 

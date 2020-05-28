@@ -42,31 +42,19 @@
 
 <div class="container">  
     <h1 style="text-align: center;">Update an Award</h1><br>
-    <form method="POST" autocomplete="off">
+    <form method="POST" action="/updateAwardImage" enctype="multipart/form-data" autocomplete="off">
         <div class="form-group">
             <label for="" style="color: black;">Name of the award</label><br>
-            <input type="text" class="form-control" name="awardName"  required><br>
-            <label for="" style="color: black;">Update the Description</label><br>
-            <textarea name="awardDescription" class="form-control" cols="30" rows="5"  ></textarea><br>
-            <button type="submit" formaction="/updateAwardDesc" name="button" class="btn btn-primary">Update the Description</button><br><br>
-        </div>
-    </form>   
-    <a style="color: white;" href="/imageAward"><button class="btn btn-primary">Update the Image</a></button><br><br><br>
-</div>
-
-
-<div class="container">  
-    <h1 style="text-align: center;">Update a Category</h1><br>
-    <form action="/updateCategoryContent" method="POST" autocomplete="off">
-        <div class="form-group">
-            <label for="" style="color: black;">Title</label><br>
-            <input type="text" class="form-control" name="categoryTitle"  required><br>
-            <label for="" style="color: black;">Update the Content</label><br>
-            <textarea name="categoryContent" class="form-control" cols="30" rows="5"  required></textarea><br>            
-        </div>
-        <button type="submit" name="button" class="btn btn-primary">Update the Content</button><br><br><br>
-    </form>
-    <a style="color: white;" href="/imageCategory"><button class="btn btn-primary">Update the Image</a></button><br><br><br>
+            <input type="text" class="form-control" name="NameOfTheAward"  required><br>
+            <input type="file" style="color: black; font-size: 17px;" name="file" id="file">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="preview-images1"></div>
+              </div>
+            </div>
+          <br>
+        <button type="submit" name="button" class="btn btn-primary">Update the Image</button><br><br><br>
+      </div>
 </div>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
@@ -89,9 +77,6 @@
         };
         $("#file").on("change", function() {
           imagesPreview(this, "div.preview-images1");
-        });
-        $("#file1").on("change", function() {
-          imagesPreview(this, "div.preview-images2");
         });
       });
     </script>

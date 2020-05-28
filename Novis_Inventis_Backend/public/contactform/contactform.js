@@ -89,11 +89,14 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
+    var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
+    
+      
+   
     $.ajax({
       type: "POST",
       url: action,
@@ -112,7 +115,9 @@ jQuery(document).ready(function($) {
 
       }
     });
-    return false;
+
+    alert("Your message has been succesffuly recorded. Thank You!!"); 
+    
   });
 
 });

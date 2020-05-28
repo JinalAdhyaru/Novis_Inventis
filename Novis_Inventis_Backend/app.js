@@ -29,7 +29,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 //mongodb URI
-const url = 'mongodb://localhost:27017/sampleImagesDB'
+const url = 'mongodb://localhost:27017/imagesDB'
 const conn = mongoose.createConnection(url, ({useUnifiedTopology: true, useNewUrlParser: true}));
 
 //initialize gridfs
@@ -60,7 +60,7 @@ const storage = new GridFsStorage({
 const upload = multer({ storage });
 
 
-mongoose.connect("mongodb://localhost:27017/sampleDB", {useUnifiedTopology: true ,useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/projectTestDB", {useUnifiedTopology: true ,useNewUrlParser: true });
 mongoose.set("useCreateIndex",true);
 
 const userSchema = new mongoose.Schema ({
@@ -97,6 +97,15 @@ const categorySchema = {
 }
 
 const Category = mongoose.model("Category",categorySchema);
+
+const contactSchema = {
+  name: String,
+  email: String,
+  subject: String,
+  message: String
+}
+
+const Contact = mongoose.model("Contact",contactSchema);
 
 app.get("/", function(req,res) {
     res.render("index");
@@ -285,6 +294,21 @@ app.post("/login",function(req,res){
           });
       }
   });
+});
+
+
+app.post("/contact",function(req,res) {
+  const contact = new Contact ({
+    name: req.body.name,
+    email: req.body.email,
+    subject: req.body.subject,
+    message: req.body.message
+  });
+  contact.save(function(err){
+    if(!err) {
+      console.log("Stored successfully");
+    }
+  }); 
 });
 
 

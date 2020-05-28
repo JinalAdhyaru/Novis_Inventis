@@ -12,7 +12,16 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet" />
-</head>
+  <style>
+    div.preview-images1 > img {
+      width: 30%;
+    }
+    div.preview-images2 > img {
+      width: 30%;
+    }
+  </style>
+   </head>
+  
 
 <body>
   <header>
@@ -39,12 +48,15 @@
             <input type="text" class="form-control" name="awardName"  required><br>
             <label for="" style="color: black;">Description</label><br>
             <textarea name="awardDescription" class="form-control" cols="30" rows="5"  required></textarea> <br>
-                 <div class="custom-file mb-3">
-                  <input type="file" name="file" id="file" class="custom-file-input">
-                  <label for="file" class="custom-file-label">Choose File</label>
-              </div>
-           </div>
-        <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
+            <input type="file" style="color: black; font-size: 17px;" name="file" id="file">
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="preview-images1"></div>
+          </div>
+        </div>
+      </div><br>
+        <button type="submit" name="button" style="margin-left: 200px;" class="btn btn-primary">Add</button><br><br><br>
     </form>
 </div>
 
@@ -58,15 +70,44 @@
             <label for="" style="color: black;">Title</label><br>
             <input type="text" class="form-control" name="categoryTitle"  required><br>
             <label for="" style="color: black;">Content</label><br>
-            <textarea name="categoryContent" class="form-control" cols="30" rows="5"  required></textarea>
-            <div class="custom-file mb-3">
-              <input type="file" name="file" id="file" class="custom-file-input">
-              <label for="file" class="custom-file-label">Choose File</label>
+            <textarea name="categoryContent" class="form-control" cols="30" rows="5"  required></textarea><br>            
+            <input type="file" style="color: black; font-size: 17px;" name="file" id="file1">
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="preview-images2"></div>
           </div>
         </div>
-        <button type="submit" name="button" class="btn btn-primary">Add</button><br><br><br>
+      </div><br>
+        <button type="submit" name="button" style="margin-left: 200px;" class="btn btn-primary">Add</button><br><br><br>
     </form>
 </div>
 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        let imagesPreview = function(input, placeToInsertImagePreview) {
+          if (input.files) {
+            let filesAmount = input.files.length;
+            for (i = 0; i < filesAmount; i++) {
+              let reader = new FileReader();
+              reader.onload = function(event) {
+                $($.parseHTML("<img>"))
+                  .attr("src", event.target.result)
+                  .appendTo(placeToInsertImagePreview);
+              };
+              reader.readAsDataURL(input.files[i]);
+            }
+          }
+        };
+        $("#file").on("change", function() {
+          imagesPreview(this, "div.preview-images1");
+        });
+        $("#file1").on("change", function() {
+          imagesPreview(this, "div.preview-images2");
+        });
+      });
+    </script>
 <%- include("partials/footer"); -%>
 

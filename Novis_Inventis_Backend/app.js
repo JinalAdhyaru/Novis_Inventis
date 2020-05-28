@@ -9,9 +9,9 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const passport = require("passport");
 const passportlocalMongoose = require("passport-local-mongoose");
-const multer = require('multer')
-const GridFsStorage = require('multer-gridfs-storage')
-const Grid = require('gridfs-stream')
+const multer = require('multer');
+const GridFsStorage = require('multer-gridfs-storage');
+const Grid = require('gridfs-stream');
 
 const app = express();
 
@@ -26,12 +26,11 @@ app.use(session({
   saveUninitialized: false    
 }));
 
-
 app.use(passport.initialize());
 app.use(passport.session());
 //mongodb URI
-const url = 'mongodb://localhost:27017/imagesDB'
-const conn = mongoose.createConnection(url, ({useUnifiedTopology: true, useNewUrlParser: true}))
+const url = 'mongodb://localhost:27017/sampleImagesDB'
+const conn = mongoose.createConnection(url, ({useUnifiedTopology: true, useNewUrlParser: true}));
 
 //initialize gridfs
 let gfs;
@@ -40,27 +39,28 @@ conn.once('open', () => {
     //initialize stream
     gfs = Grid(conn.db, mongoose.mongo);
     gfs.collection('uploads')
-  })
+  });
 
 //Create Storage engine
 const storage = new GridFsStorage({
   url: url,
   options: {useUnifiedTopology: true},
   file: (req, file) => {
-    return new Promise((resolve, reject) => {
-         const fileInfo = {
+    return new Promise((resolve, reject) => {     
+        // const filename = buf.toString('hex') + path.extname(file.originalname);
+        const fileInfo = {
           filename: file.originalname,
           bucketName: 'uploads'
         };
-        resolve(fileInfo);
-      });
+        resolve(fileInfo);      
+    });
   }
 });
 
 const upload = multer({ storage });
 
 
-mongoose.connect("mongodb://localhost:27017/projectTestDB", {useUnifiedTopology: true ,useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/sampleDB", {useUnifiedTopology: true ,useNewUrlParser: true });
 mongoose.set("useCreateIndex",true);
 
 const userSchema = new mongoose.Schema ({
@@ -88,7 +88,7 @@ const awardSchema = {
     description: String
   };
   
-  const Award = mongoose.model("Award",awardSchema);
+const Award = mongoose.model("Award",awardSchema);
 
 const categorySchema = {
   name: String,
@@ -314,7 +314,7 @@ app.post("/login",function(req,res){
     }); 
   });
 
-  app.post("/updateAward",  upload.single('file'),function(req,res){
+app.post("/updateAwardDesc",function(req,res){
     Award.updateOne({name: req.body.awardName}, {description: req.body.awardDescription}, function(err){
       if(err) {
         console.log(err);
@@ -322,10 +322,35 @@ app.post("/login",function(req,res){
       else {
         res.redirect("/changes");
       }
-    })
-  });
+    })    
+});
 
-  app.post("/updateCategory",upload.single('file'), function(req,res){
+app.post("/updateAwardImage",upload.single('file'),function(req,res){
+  res.redirect("/changes");
+});
+
+app.post("/updateImage",function(req,res){
+  const name = req.body.awardName + ".jpg";
+  gfs.files.findOne({filename : name}, (err, file) =>{
+    // Check if file exists at all
+    if( !file || file.length === 0){
+        console.log("There was no image");
+        console.log(file);
+        res.render("image");
+    }
+    else {
+      gfs.remove({ _id: file._id, root: 'uploads' }, (err, gridStore) => {
+        if (err) {
+          console.log(err);
+        }        
+        console.log("deleted successfully ");
+        res.render("image");
+      });    
+    }
+})        
+});
+
+app.post("/updateCategory",upload.single('file'), function(req,res){
     Category.updateOne({title: req.body.categoryTitle}, {content: req.body.categoryContent}, function(err){
       if(err) {
         console.log(err);
@@ -334,10 +359,11 @@ app.post("/login",function(req,res){
         res.redirect("/changes");
       }
     })
-  });
+});
 
+  
 
-  app.post("/deleteAward", function(req,res) {
+app.post("/deleteAward", function(req,res) {
     Award.deleteOne({name: req.body.awardName}, function(err) {    
       if(err) {
         console.log(err);
@@ -360,32 +386,32 @@ app.post("/login",function(req,res){
       })        
       }
     });
-  });
+});
 
-  app.post("/deleteCategory", function(req,res) {
+app.post("/deleteCategory", function(req,res) {
     Category.deleteOne({title: req.body.categoryTitle}, function(err) { 
-      if(err) {
-        console.log(err);
-      } 
-      else {
-        const name = req.body.categoryTitle + ".jpg";
-        gfs.files.findOne({filename : name}, (err, file) =>{
-          // Check if file exists at all
-          if( !file || file.length === 0){
-              console.log(err);
-          }
-          else {
-            gfs.remove({ _id: file._id, root: 'uploads' }, (err, gridStore) => {
-              if (err) {
+        if(err) {
+          console.log(err);
+        } 
+        else {
+          const name = req.body.categoryTitle + ".jpg";
+          gfs.files.findOne({filename : name}, (err, file) =>{
+            // Check if file exists at all
+            if( !file || file.length === 0){
                 console.log(err);
-              }        
-              res.redirect('/changes');
-            });    
-          }
-      })        
-      }
+            }
+            else {
+              gfs.remove({ _id: file._id, root: 'uploads' }, (err, gridStore) => {
+                if (err) {
+                  console.log(err);
+                }        
+                res.redirect('/changes');
+              });    
+            }
+        })        
+        }
     });
-  });
+});
   
 app.listen(3000, function() {
     console.log("Server started on port 3000");

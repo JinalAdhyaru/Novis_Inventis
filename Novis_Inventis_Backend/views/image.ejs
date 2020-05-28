@@ -46,26 +46,15 @@
         <div class="form-group">
             <label for="" style="color: black;">Name of the award</label><br>
             <input type="text" class="form-control" name="awardName"  required><br>
-            <label for="" style="color: black;">Update the Description</label><br>
-            <textarea name="awardDescription" class="form-control" cols="30" rows="5"  ></textarea><br>
-            <button type="submit" formaction="\updateAwardDesc" name="button" class="btn btn-primary">Update the Description</button><br><br><br>
-        <button type="submit" formaction="\updateImage" formenctype="multipart/form-data" name="button" class="btn btn-primary">Update the Image</button><br><br><br>
-      </div>
-    </form>
-</div>
-
-
-<div class="container">  
-    <h1 style="text-align: center;">Update a Category</h1><br>
-    <form action="/updateCategory" method="POST" autocomplete="off">
-        <div class="form-group">
-            <label for="" style="color: black;">Title</label><br>
-            <input type="text" class="form-control" name="categoryTitle"  required><br>
-            <label for="" style="color: black;">Update the Content</label><br>
-            <textarea name="categoryContent" class="form-control" cols="30" rows="5"  required></textarea><br>
             <input type="file" style="color: black; font-size: 17px;" name="file" id="file">
-        </div>
-        <button type="submit" name="button" class="btn btn-primary">Update</button><br><br><br>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="preview-images1"></div>
+              </div>
+            </div>
+          <br>
+        <button type="submit" formaction="\updateAwardImage" formenctype="multipart/form-data" name="button" class="btn btn-primary">Update the Image</button><br><br><br>
+      </div>
     </form>
 </div>
 

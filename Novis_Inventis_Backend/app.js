@@ -4,7 +4,6 @@ const ejs = require("ejs");
 const path = require('path')
 const truncate = require('truncate-html');
 const _ = require('lodash');
-const crypto = require('crypto');
 const mongoose = require("mongoose");
 const session = require("express-session");
 const passport = require("passport");
@@ -142,13 +141,13 @@ app.get('/image/:filename' , (req, res) =>{
   })
 })
 
-app.get("/blog", function(req,res) {
+app.get("/awards", function(req,res) {
   Award.find({},function(err,awards) {
     if(!err) {
      gfs.files.find().toArray((err, files) =>{
       // Check if files exists at all
       if( !files || files.length === 0){
-        res.render("blog", {files : false,awards: awards})
+        res.render("awards", {files : false,awards: awards})
       }else{
           files.map(file =>{
               if(file.contentType === 'image/jpeg' || file.contentType === 'image/png'){
@@ -157,20 +156,20 @@ app.get("/blog", function(req,res) {
                   file.isImage = false;
               }
           })
-          res.render("blog", {files : files,awards: awards})
+          res.render("awards", {files : files,awards: awards})
       }
   })      
     }
   });
 });
 
-app.get("/portfolio", function(req,res) {
+app.get("/categories", function(req,res) {
   Category.find({},function(err,categories) {
     if(!err) {
       gfs.files.find().toArray((err, files) =>{
         // Check if files exists at all
         if( !files || files.length === 0){
-          res.render("portfolio", {files : false,categories: categories})
+          res.render("categories", {files : false,categories: categories})
         }else{
             files.map(file =>{
                 if(file.contentType === 'image/jpeg' || file.contentType === 'image/png'){
@@ -179,7 +178,7 @@ app.get("/portfolio", function(req,res) {
                     file.isImage = false;
                 }
             })
-            res.render("portfolio", {files : files,categories: categories})
+            res.render("categories", {files : files,categories: categories})
         }
     })      
     } 
@@ -339,7 +338,7 @@ app.post("/contact",function(req,res) {
       title: req.body.categoryTitle,
       content: req.body.categoryContent
     });
-    console.log(req.body.categoryName)
+    console.log(req.body.categoryName);
     category.save(function(err){
       if(!err) {
         res.redirect("/changes");

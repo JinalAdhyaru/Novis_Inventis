@@ -338,6 +338,7 @@ app.post("/contact",function(req,res) {
       title: req.body.categoryTitle,
       content: req.body.categoryContent
     });
+    console.log(req.body.categoryName);
     category.save(function(err){
       if(!err) {
         res.redirect("/changes");

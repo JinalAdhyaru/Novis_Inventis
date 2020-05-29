@@ -65,8 +65,14 @@
     <h1 style="text-align: center;">Add inside Categories</h1><br>
     <form action="/composeCategory" method="POST" enctype="multipart/form-data" autocomplete="off">
         <div class="form-group">
-            <label for="" style="color: black;">Name of the Category</label><br>
-            <input type="text" class="form-control" name="categoryName"  required><br>
+            <label for="categories" style="color: black;">Name of the Category</label><br>
+            <select type="text" class="form-control" name="categoryName" id="categories"  required>
+              <option value="nanotechnology">Nanotechnology</option>
+              <option value="robotics">Robotics</option>
+              <option value="biotechnology">Biotechnology</option>
+              <option value="astronomy">Astronomy</option>
+            </select>
+            <!-- <input type="text" class="form-control" name="categoryName"  required><br> -->
             <label for="" style="color: black;">Title</label><br>
             <input type="text" class="form-control" name="categoryTitle"  required><br>
             <label for="" style="color: black;">Content</label><br>

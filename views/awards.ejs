@@ -15,23 +15,28 @@
           <!--/.blog-item-->
          <div class="blog-item text-center container">
           <div class="row">
-          <div class=" blog-content text-center">
-                   <%  for(var i=0;i<awards.length;i++) {%>
-                    <% award = awards[i]; %>
-                    <% if(files){ %>
-                            <% for(var j=0;j<files.length;j++) {%>
-                                <% file = files[j] %>
-                                <% const filename = award.name + ".jpg"; %>
-                                 <% if(file.isImage && file.filename == filename) { %>
-                                      <img class="img-responsive img-blog" src="image/<%= file.filename %>" style="margin-left: 240px;" width="60%" alt="" />
-                                      <% break; %>                                      
-                                 <% } %>
-                                   <% } %>
-                                   <% } %>
-                                   <h4><%=award.name%></h4>
-                                 <p><%=award.description%></p>
-                         <% } %>                       
-              </div>
+          <div class="wow bounceInDown" data-wow-offset="0" data-wow-delay="0.3s">
+            <div class=" blog-content text-center">
+              <%  for(var i=0;i<awards.length;i++) {%>
+               <% award = awards[i]; %>
+               <% if(files){ %>
+                       <% for(var j=0;j<files.length;j++) {%>
+                           <% file = files[j] %>
+                           <% const filename = award.name + ".jpg"; %>
+                            <% if(file.isImage && file.filename == filename) { %>
+                                 <img class="img-responsive img-blog" src="image/<%= file.filename %>" style="margin-left: 400px;" width="30%" alt="" />
+                                 <% break; %>                                      
+                            <% } %>
+                              <% } %>
+                              <% } %>
+                              <hr>
+                              <h4 style="color: black; font-family:sans; font-size:28px; font-weight:bold;"><u><%=award.name%></u></h4><hr>
+                            <p style="color: black; font-family:serif; font-size:14px; font-weight:italic;"><%=award.description%></p>
+                            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                    <% } %>                       
+         </div>
+          </div>
+          
             </div>
           </div>
       <!--/.blog-item-->  

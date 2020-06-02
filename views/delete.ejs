@@ -23,4 +23,16 @@
     </form>
 </div>
 
+<div class="container">  
+    <h1 style="text-align: center;">Delete a Blog Post</h1><br>
+    <form action="/deleteBlog" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Title</label><br>
+            <input type="text" class="form-control" name="postTitle" required><br>
+        </div>
+      </div><br>
+        <button type="submit" name="button" style="margin-left: 200px;" class="btn btn-primary">Delete</button><br><br><br>
+    </form>
+  </div>
+
 <%- include("partials/footer2"); -%>

@@ -29,4 +29,18 @@
     <a style="color: white;" href="/imageCategory"><button class="btn btn-primary">Update the Image</a></button><br><br><br>
 </div>
 
+<div class="container">  
+    <h1 style="text-align: center;">Update a Blog Post</h1><br>
+    <form action="/updateBlog" method="POST" autocomplete="off">
+        <div class="form-group">
+            <label for="" style="color: black;">Title</label><br>
+            <input type="text" class="form-control" name="postTitle" required><br>
+            <label for="" style="color: black;">Post</label><br>
+            <textarea name="postBody" class="form-control" cols="30" rows="5" required></textarea> <br>
+        </div>
+      </div><br>
+        <button type="submit" name="button" style="margin-left: 200px;" class="btn btn-primary">Update the blog</button><br><br><br>
+    </form>
+  </div>
+
 <%- include("partials/footer2"); -%>

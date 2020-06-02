@@ -97,6 +97,13 @@ const categorySchema = {
 
 const Category = mongoose.model("Category",categorySchema);
 
+const postSchema = {
+  title: String,
+  content: String
+};
+
+const Post = mongoose.model("Post",postSchema);
+
 const contactSchema = {
   name: String,
   email: String,
@@ -105,6 +112,13 @@ const contactSchema = {
 }
 
 const Contact = mongoose.model("Contact",contactSchema);
+
+const ideaSchema = {
+  name: String,
+  idea: String
+}
+
+const Idea = mongoose.model("Idea",ideaSchema);
 
 app.get("/", function(req,res) {
     res.render("index");
@@ -119,7 +133,23 @@ app.get("/imageCategory", function(req,res) {
 });
 
 app.get("/services", function(req,res) {
-    res.render("services");
+  Post.find({},function(err,posts) {
+    if(!err) {
+    res.render("services",{ posts: posts });
+    } 
+  });
+});
+
+app.get("/posts/:postId", function(req, res){
+  const requestedTitle = _.lowerCase(req.params.postName);
+  const requestedPostId = req.params.postId;
+
+  Post.findOne({_id: requestedPostId}, function(err,post){
+    res.render("post",{
+      title: post.title,
+      content: post.content
+    })
+  });
 });
 
 app.get('/image/:filename' , (req, res) =>{
@@ -310,6 +340,18 @@ app.post("/contact",function(req,res) {
   }); 
 });
 
+app.post("/ideas",function(req,res) {
+  const idea = new Idea ({
+    name: req.body.name,
+    idea: req.body.idea
+  });
+  idea.save(function(err){
+    if(!err) {
+      console.log("Stored successfully");
+    }
+  }); 
+});
+
 
  app.post("/changes",upload.single('file'),function(req,res){
     if(req.isAuthenticated()){
@@ -345,6 +387,37 @@ app.post("/contact",function(req,res) {
       }
     }); 
   });
+
+  app.post("/composeBlog", function(req,res){
+    const post = new Post ({
+      title: req.body.postTitle,
+      content: req.body.postBody
+    });
+    post.save(function(err){
+      if(!err) {
+        res.redirect("/changes");
+      }
+    }); 
+  });
+
+  app.post("/updateBlog",function(req,res){
+    Post.updateOne({title: req.body.postTitle}, {content: req.body.postBody}, function(err){
+      if(err) {
+        console.log(err);
+      }
+      else {
+        res.redirect("/changes");
+      }
+    })    
+});
+
+app.post("/deleteBlog", function(req,res) {
+  Post.deleteOne({title: req.body.postTitle}, function(err) {    
+    if(err) throw err;
+    res.redirect('/changes');
+  });
+});
+
 
 app.post("/updateAwardDesc",function(req,res){
     Award.updateOne({name: req.body.awardName}, {description: req.body.awardDescription}, function(err){
@@ -415,10 +488,7 @@ app.post("/updateCategoryImage",upload.single('file'),function(req,res){
       });    
     }
   })        
-});
-
-
-  
+});  
 
 app.post("/deleteAward", function(req,res) {
     Award.deleteOne({name: req.body.awardName}, function(err) {    

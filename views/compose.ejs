@@ -57,6 +57,21 @@
     </form>
 </div>
 
+
+<div class="container">  
+  <h1 style="text-align: center;">Add a Blog Post</h1><br>
+  <form action="/composeBlog" method="POST" autocomplete="off">
+      <div class="form-group">
+          <label for="" style="color: black;">Title</label><br>
+          <input type="text" class="form-control" name="postTitle" required><br>
+          <label for="" style="color: black;">Post</label><br>
+          <textarea name="postBody" class="form-control" cols="30" rows="5"  required></textarea> <br>
+      </div>
+    </div><br>
+      <button type="submit" name="button" style="margin-left: 200px;" class="btn btn-primary">Add</button><br><br><br>
+  </form>
+</div>
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>

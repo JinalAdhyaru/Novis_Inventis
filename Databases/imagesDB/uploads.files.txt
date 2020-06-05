@@ -1,0 +1,538 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ece56814fc334692880cf7c"),
+    "length" : 427740,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:01:05.506Z"),
+    "filename" : "Ubtech Robotics Walker.jpg",
+    "md5" : "2fd56527ab2cc15bd262344b55290187",
+    "contentType" : "image/jpeg"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5ece56cd4fc334692880cf80"),
+    "length" : 60896,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:02:21.643Z"),
+    "filename" : "ForwardX CX-1 Robotics Suitcase.jpg",
+    "md5" : "e3690d58a81acdc355818221fa84aea2",
+    "contentType" : "image/jpeg"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5ece57224fc334692880cf83"),
+    "length" : 43122,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:03:46.041Z"),
+    "filename" : "Russian Doll Nano-Emulsions.jpg",
+    "md5" : "5c255e22e0632e04ad37a94bad21fdc7",
+    "contentType" : "image/jpeg"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5ece57484fc334692880cf86"),
+    "length" : 4665,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:04:24.300Z"),
+    "filename" : "Oil-Eating Bacteria.jpg",
+    "md5" : "c86dbeaf880e6b8711a90d71f4751d3f",
+    "contentType" : "image/jpeg"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5ece578a4fc334692880cf89"),
+    "length" : 91762,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:05:30.230Z"),
+    "filename" : "Somnox Sleep Robot.jpg",
+    "md5" : "d1b95a2b56cfccf99a8d5dd1f01c71c0",
+    "contentType" : "image/jpeg"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5ece57d44fc334692880cf8c"),
+    "length" : 38637,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:06:44.828Z"),
+    "filename" : "DNA Nanobots.jpg",
+    "md5" : "14e54c6baf86876806959ba58aa1fe39",
+    "contentType" : "image/jpeg"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5ece580e4fc334692880cf8f"),
+    "length" : 6945,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:07:42.567Z"),
+    "filename" : "Advanced Biofuel Technology.jpg",
+    "md5" : "a4eea894fcd1786524e1573dec582b22",
+    "contentType" : "image/jpeg"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5ece583d4fc334692880cf92"),
+    "length" : 82636,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:08:29.617Z"),
+    "filename" : "Boston Dynamics SpotMini.jpg",
+    "md5" : "315bc0def6e8cdb0d4c0bf3b0a0ab23c",
+    "contentType" : "image/jpeg"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5ece58774fc334692880cf95"),
+    "length" : 9157,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:09:27.173Z"),
+    "filename" : "Quantum Optomechanics.jpg",
+    "md5" : "52c3a30f0389921809af8a953d74137f",
+    "contentType" : "image/jpeg"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5ece58df4fc334692880cf9b"),
+    "length" : 20116,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:11:11.568Z"),
+    "filename" : "Care OS Smart Mirror.jpg",
+    "md5" : "adcb9390dd3cc10c0de6bcf2d008cb6a",
+    "contentType" : "image/jpeg"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5ece591b4fc334692880cf9e"),
+    "length" : 12400,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:12:11.272Z"),
+    "filename" : "Slow Light.jpg",
+    "md5" : "d8cd4114e8160fc7f79398c991bd4b48",
+    "contentType" : "image/jpeg"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5ece59654fc334692880cfa1"),
+    "length" : 5741,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:13:25.831Z"),
+    "filename" : "Biosensors.jpg",
+    "md5" : "ffe73b0778d3fc64140da25da0d9cee2",
+    "contentType" : "image/jpeg"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5ece59a74fc334692880cfa4"),
+    "length" : 59373,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:14:31.568Z"),
+    "filename" : "Robomart.jpg",
+    "md5" : "61d3f33233bfac2895d9f07be1a97ce6",
+    "contentType" : "image/jpeg"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5ece59dd4fc334692880cfa7"),
+    "length" : 6089,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:15:25.423Z"),
+    "filename" : "Bioplastics.jpg",
+    "md5" : "08f88cefaf59c8b47e49f1017b54059f",
+    "contentType" : "image/jpeg"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5ece5a0b4fc334692880cfaa"),
+    "length" : 30400,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:16:11.168Z"),
+    "filename" : "Sophia.jpg",
+    "md5" : "05a4862d952892e75bce0cad20e2de4e",
+    "contentType" : "image/jpeg"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5ece5ca559f8cf50b4635702"),
+    "length" : 6343,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:27:17.805Z"),
+    "filename" : "Lab-Grown Meat And Plants.jpg",
+    "md5" : "c1de2cbad71aae31f7a4b99f6a6fa51d",
+    "contentType" : "image/jpeg"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5ece5deb59f8cf50b4635718"),
+    "length" : 75203,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:32:43.269Z"),
+    "filename" : "WIPO Medal for Inventors.jpg",
+    "md5" : "20803fc588d337f200eede4d9a5c06c2",
+    "contentType" : "image/jpeg"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5ece5f3259f8cf50b463571d"),
+    "length" : 233327,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:38:10.703Z"),
+    "filename" : "European Inventor Award.jpg",
+    "md5" : "895d9bfb7f9b8e6ce130a9dd52c00345",
+    "contentType" : "image/jpeg"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5ece5f4c59f8cf50b4635720"),
+    "length" : 6386191,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:38:36.429Z"),
+    "filename" : "The annual Ericsson Inventor of the Year award.jpg",
+    "md5" : "18299adb53062957b5bcbbe0fd995591",
+    "contentType" : "image/jpeg"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5ece5f6559f8cf50b463573b"),
+    "length" : 118361,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:39:01.157Z"),
+    "filename" : "Edison Awards.jpg",
+    "md5" : "5f459bcae6502b2547fc3c8e0054f5da",
+    "contentType" : "image/jpeg"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5ece5f7b59f8cf50b463573e"),
+    "length" : 45535,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:39:23.902Z"),
+    "filename" : "National Medal Of Technology And Innovation.jpg",
+    "md5" : "6a452eb4ce268c44daba783b8b4b28b2",
+    "contentType" : "image/jpeg"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5ece5f9359f8cf50b4635741"),
+    "length" : 2768179,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:39:47.543Z"),
+    "filename" : "Albert Einstein World Award for Science.jpg",
+    "md5" : "e51f72dc1052e63a7d14804ee6528a82",
+    "contentType" : "image/jpeg"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5ece5fac59f8cf50b463574e"),
+    "length" : 6736,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:40:12.012Z"),
+    "filename" : "Innovationspreis Bayern.jpg",
+    "md5" : "1f1c0ebefa64a80d572de131f47c2721",
+    "contentType" : "image/jpeg"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5ece5fbf59f8cf50b4635751"),
+    "length" : 76525,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-05-27T12:40:31.495Z"),
+    "filename" : "Deutscher Zukunftspreis – The Federal President’s Award For Technology And Innovation.jpg",
+    "md5" : "77eebdb3e615d981927258b11ae5d413",
+    "contentType" : "image/jpeg"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5ed9dd4044e1c8692c6d9628"),
+    "length" : 17129,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T05:50:56.342Z"),
+    "filename" : "Discovery of Uranus.jpg",
+    "md5" : "721cc6527507ea8d5e4a702795615862",
+    "contentType" : "image/jpeg"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5ed9dd8e44e1c8692c6d962b"),
+    "length" : 27358,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T05:52:14.438Z"),
+    "filename" : "Scientists Develop Nano Bubble Water In Japan.jpg",
+    "md5" : "00620e7ab1f45ff25ba22f35e516990a",
+    "contentType" : "image/jpeg"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5ed9ddb844e1c8692c6d962e"),
+    "length" : 5458,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T05:52:56.842Z"),
+    "filename" : "Grow yourself a mushroom lamp.jpg",
+    "md5" : "230e6265cab81f8243d2bd623a7e5756",
+    "contentType" : "image/jpeg"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5ed9de2e44e1c8692c6d963d"),
+    "length" : 31091,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T05:54:54.817Z"),
+    "filename" : "Liquid-fueled rocket.jpg",
+    "md5" : "5bc4797d074b8a97e9cc493a83999411",
+    "contentType" : "image/jpeg"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5ed9deac44e1c8692c6d9640"),
+    "length" : 11549,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T05:57:00.882Z"),
+    "filename" : "Good morning, cow-free cow milk.jpg",
+    "md5" : "c4f0747259ae7ee18b9926d62d8e0d38",
+    "contentType" : "image/jpeg"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5ed9dfd944e1c8692c6d9643"),
+    "length" : 29514,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:02:01.988Z"),
+    "filename" : "Kuri.jpg",
+    "md5" : "3ef62a802b09ad48aec542a7900d9dab",
+    "contentType" : "image/jpeg"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5ed9e1879349236d3863ef0b"),
+    "length" : 2355610,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:09:11.541Z"),
+    "filename" : "Halley's Comet.jpg",
+    "md5" : "36a87adc95f02caf934b0c79ea3ab7f3",
+    "contentType" : "image/jpeg"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5ed9e2c79349236d3863ef98"),
+    "length" : 11820,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:14:31.716Z"),
+    "filename" : "Halley Comet.jpg",
+    "md5" : "80f0c3c17000bf24639b41c2a0bda2c5",
+    "contentType" : "image/jpeg"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5ed9e3629349236d3863efb4"),
+    "length" : 84142,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:17:06.439Z"),
+    "filename" : "World's first Ballistic missile(V-2).jpg",
+    "md5" : "27e487d644746128a3447c60bbc6d453",
+    "contentType" : "image/jpeg"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5ed9e3939349236d3863efb7"),
+    "length" : 29869,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:17:55.795Z"),
+    "filename" : "Nanosensor Probe.jpg",
+    "md5" : "b7ccdea3b145ac4402868e3fb32df448",
+    "contentType" : "image/jpeg"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5ed9e3eb9349236d3863efba"),
+    "length" : 5922,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:19:24.006Z"),
+    "filename" : "Extrasolar Planets.jpg",
+    "md5" : "8b681ae98aea8e396b671953022e1be0",
+    "contentType" : "image/jpeg"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5ed9e4199349236d3863efbd"),
+    "length" : 22499,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:20:09.393Z"),
+    "filename" : "The Heliocentric Model.jpg",
+    "md5" : "29fc8741b32ff78105e5a691948d50e0",
+    "contentType" : "image/jpeg"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5ed9e45e9349236d3863efc0"),
+    "length" : 86826,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:21:18.376Z"),
+    "filename" : "A Final Coating.jpg",
+    "md5" : "b89a3a250a264c49a1d3938fe42cf42f",
+    "contentType" : "image/jpeg"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5ed9e5629349236d3863f01d"),
+    "length" : 24335,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:25:38.954Z"),
+    "filename" : "Herschel Map.jpg",
+    "md5" : "09b7e18693152ac9528445f53c1cc878",
+    "contentType" : "image/jpeg"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5ed9e5959349236d3863f020"),
+    "length" : 34403,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:26:29.633Z"),
+    "filename" : "Hacking biology with a liquid biocomputer.jpg",
+    "md5" : "3ad70400650a3f41b2c10bcb0c6b5676",
+    "contentType" : "image/jpeg"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5ed9e5bd9349236d3863f023"),
+    "length" : 44084,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:27:09.756Z"),
+    "filename" : "Themopower- New Energy Source.jpg",
+    "md5" : "cb98b2696fd0587101f1fcf3bb33b07b",
+    "contentType" : "image/jpeg"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("5ed9e5ef9349236d3863f026"),
+    "length" : 163603,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:27:59.753Z"),
+    "filename" : "Aeolus Bot.jpg",
+    "md5" : "7e96e01b4b831284046652fb10f0cf28",
+    "contentType" : "image/jpeg"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("5ed9e63a9349236d3863f029"),
+    "length" : 94595,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:29:14.020Z"),
+    "filename" : "Accelerating Universe.jpg",
+    "md5" : "8eb118557e73724b9d3e0fc0315df832",
+    "contentType" : "image/jpeg"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("5ed9e6899349236d3863f02c"),
+    "length" : 31078,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:30:33.123Z"),
+    "filename" : "Portable Dialysis.jpg",
+    "md5" : "c6d8f50623d0c1fb3b342212db414da5",
+    "contentType" : "image/jpeg"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("5ed9e6b99349236d3863f02f"),
+    "length" : 22430,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:31:21.910Z"),
+    "filename" : "Nanoengineers Invent New Biomaterial.jpg",
+    "md5" : "4ef675d94ea20e5305faa9b7eb0f343e",
+    "contentType" : "image/jpeg"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("5ed9e6e49349236d3863f032"),
+    "length" : 7323,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:32:04.833Z"),
+    "filename" : "Astronomers Capture First Image of a Black Hole.jpg",
+    "md5" : "d7be8dfa01e9b46a86fddff6400ec008",
+    "contentType" : "image/jpeg"
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("5ed9e70d9349236d3863f035"),
+    "length" : 68336,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:32:45.883Z"),
+    "filename" : "Backflipping Mini Cheetah.jpg",
+    "md5" : "e3763af6b73ab452f1e1adaad9da87a1",
+    "contentType" : "image/jpeg"
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("5ed9e7359349236d3863f038"),
+    "length" : 354014,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:33:25.769Z"),
+    "filename" : "The “MicrobeMiner” to crowd-source antibiotic discovery.jpg",
+    "md5" : "609727e171a3c34b9db78450a4e238ed",
+    "contentType" : "image/jpeg"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("5ed9e75e9349236d3863f03c"),
+    "length" : 83530,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:34:06.059Z"),
+    "filename" : "Silver Germ-Killers.jpg",
+    "md5" : "3f85edbc8f371fe40b02e6ccf231ca5f",
+    "contentType" : "image/jpeg"
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("5ed9e77b9349236d3863f03f"),
+    "length" : 5469,
+    "chunkSize" : 261120,
+    "uploadDate" : ISODate("2020-06-05T06:34:35.849Z"),
+    "filename" : "Lunar Reconnaissance Orbiter.jpg",
+    "md5" : "f79544c9c14b2c6549405c85f93a4804",
+    "contentType" : "image/jpeg"
+}

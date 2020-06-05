@@ -1,0 +1,7 @@
+/* 1 */
+{
+    "_id" : ObjectId("5eda32090a90d853e08eba2b"),
+    "name" : "Elizabeth Bennet",
+    "idea" : "Hi , I just the other day I was thinking  I cool would it be if even cars could fly. I mean won't that be a good ride .This would also reduce traffic on road but yeah it might increase traffic in air. ",
+    "__v" : 0
+}

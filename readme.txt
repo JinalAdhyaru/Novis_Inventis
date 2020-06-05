@@ -1,6 +1,10 @@
-Thanks for downloading this theme!
+Novis Inventis
 
-Theme Name: Multi
-Theme URL: https://bootstrapmade.com/multi-responsive-bootstrap-template/
-Author: BootstrapMade
-Author URL: https://bootstrapmade.com
+This is our final project for Web Technology for second semester.
+
+This website is basically for students upto class 10th.This webiste will encourage them to do research and give them exapmles about many different innovations and discoveries in few categories.It is a fun website which anyone can visit and have a look at for fun.
+
+The stack used is html,css and bootstrap for front-end,node js ,express-ejs for backend and the database used is mongodb.
+
+To run the project 
+ 

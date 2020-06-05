@@ -1,0 +1,359 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ece56814fc334692880cf7f"),
+    "name" : "Robotics",
+    "title" : "Ubtech Robotics Walker",
+    "content" : "Ubtech has been a pioneer in the industry with its humanoid robots, including an Alexa-enabled robot that can perform yoga too. However, the robot Ubtech previewed at the Consumer Electronics Show (CES) expo is its most ambitious project.\r\n\r\nThe Ubtech Robotics Walker is a four-foot tall bot that has true bipedal motion, which enables it to not only walk around but go up and down stairs and even kick a soccer ball.\r\n\r\nThe version that was showcased in the CES 2018 was an early model and did not have arms but by the time Ubtech Robotics Walker becomes available in 2019, it will have all of its limbs, with a host of new abilities according to company representatives. The technology marvel Walker is studded with sensors like cameras in its head and torso, and auto detection sensors in its feet and sides, which help the robot, know when it is close to an object. When armed with the right programming, the robot can avoid things such as chairs and tables which come in its way. Ubtech Robotics Walker responds to vocal commands as well as visual cues and its head is a large touchscreen which has a camera on the top to control your smart home, help schedule your calendar, play music and dance, patrol the home, and provide visual surveillance and motion detection.",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5ece56cd4fc334692880cf82"),
+    "name" : "Robotics",
+    "title" : "ForwardX CX-1 Robotics Suitcase",
+    "content" : "CES 2018 showcased a notable tech the first smart suitcase custom built to follow the owner. Recently unveiled ForwardX CX-1now called as Ovis is an autonomous piece of luggage designed to follow you around as you make your way from point A to B, and everywhere in between. Smart Technology isn’t it! This autonomous suitcase has been commercially launched in Indiegogo (international crowd-funding website to buy unique products), with early bird pricing beginning at $399.  The robotic suitcase has been implanted with a pair of eyes and brain and represents a meeting between a wheeled gadget and computer vision, armed with the intelligence and cognition to tackle complex problems like predicting the user’s path while avoiding obstacles.\r\n\r\nIndeed, the Ovis has been branded as the world’s first self-driving carry-on robot featuring an array of advanced tech, including a 170-degree wide-angle lens that hosts a built-in facial recognition software, allowing the device to follow the user at up to 7 miles per hour. Other exciting features that include obstacle avoidance work in tandem with the suitcase’s tracking algorithm. Ovis comes with a smart wristband that works to keep thieves at bay, if the suitcase wanders out of range, the smart wristband bracelet will let the users know for an easy tracking.\r\n",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5ece57224fc334692880cf85"),
+    "name" : "Nanotechnology",
+    "title" : "Russian Doll Nano-Emulsions",
+    "content" : "Emulsions, mixes of immiscible liquids such as oil and water, are found in products that range from pharmaceuticals and pesticides to make-up and mayonnaise. ‘Multi-emulsions’, multi-layered matryoshka doll style, oil-in-water-in-oil systems have seen growing interest from academics in recent years. However, current methods work only on large-scales and produce single multi-emulsions at slow rates.\r\n\r\nNow, academics from the US West Coast have developed a process to solve some of the problem incolved in creating multi-emulsions. Their technology uses sequential, high-energy emulsification to create nanometre-sized droplets of oil, suspended in water droplets, which are in turn suspended in a second oil. This innovation opens the door for products such as novel encapsulated drugs and pesticides, or even for ultra-low-fat salad dressings.",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5ece57484fc334692880cf88"),
+    "name" : "Biotechnology",
+    "title" : "Oil-Eating Bacteria",
+    "content" : "In 2010, an explosion on the BP-owned Deepwater Horizon offshore drilling rig resulted in an estimated 3.19 million barrels of oil being released into the Gulf of Mexico.\r\n\r\nIt was the worst oil spill in U.S. history and could have had a catastrophic effect on the marine life and animal ecology in and around the Gulf of Mexico. Thankfully, some of the worst fears of the spill weren’t realized thanks to oil-eating bacteria. These microbes were able to break down some of the easiest molecules in the oil, and as the bacteria continued to reproduce and multiply, over time it’s been able to consume the majority of the oil that was spilled.\r\n\r\nThese bacteria, some of which were previously unknown to scientists, can now be used to help clean up future oil spills around the world.",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5ece578a4fc334692880cf8b"),
+    "name" : "Robotics",
+    "title" : "Somnox Sleep Robot",
+    "content" : "Do you have irregular sleeping cycles? Do you toss and turn, read for hours to finally catch a nap? What about an assisted sleeping robot that may help your way to sleep? Surprised? Well, Somnox’s sleep robot can actually do that. The Somnox sleep bot looks more like a massive peanut; you hug it, to feel the soft rise and fall of its body, mimicking the users breathing. This calming effect is programmed to lull the user to sleep, as the breathing begins to match the slower pace of the robot’s own, while the soothing sounds help to relax the mind.\r\n\r\nAn app configures the breathing patterns and the music, with the length of time the sleep robot stays active during the night. The device does not provide any sleep tracking data or a smart alarm clock which makes a room for improvement.\r\n\r\nAt the moment, the robot does a basic function and is firmly built around the unusual breathing action. Somnox sleep bot comes with an expensive price tag it is sold through Indiegogo for nearly $600. That may be a lot of money for a gadget that may or may not help you sleep better and even does not provide any quantifiable data to establish how much difference it is making in your sleep.",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5ece57d44fc334692880cf8e"),
+    "name" : "Nanotechnology",
+    "title" : "DNA Nanobots",
+    "content" : "Nanotechnology is a growing research field that manipulates materials on a molecular scale. One prospect is to transform medicine by injecting nanobots into the body where they perform functions such as treating disease.\r\n\r\n\r\nResearchers injected DNA into cockroaches. Tom Spinker/Flickr, CC BY-NC-ND\r\nIn February, an Israeli team described devices they made from DNA and injected into cockroaches. By performing a kind of origami, the DNA nanobots assembled themselves and were able to control a molecule that targeted specific cells, so demonstrating their potential to carry out medical functions such as attacking cancers.\r\n",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5ece580e4fc334692880cf91"),
+    "name" : "Biotechnology",
+    "title" : "Advanced Biofuel Technology",
+    "content" : "The U.S. Department of Energy defines biofuels as biomass that “can be converted directly into liquid fuels.” The two most common biofuels used in the U.S. today are ethanol and biodiesel.\r\n\r\nIn recent years, we’ve seen growth in the development of advanced biofuels. According to Environmental Entrepreneurs (E2), biofuels are “a non-petroleum liquid fuel that achieves a 50 percent reduction in carbon intensity compared to a petroleum-fuel baseline, as determined by the U.S. EPA and the California Air Resources Board.” A 2014 report commissioned by E2 states that the advanced biofuel industry is growing considerably.\r\n\r\nThe environmental advocacy group found that as of 2014, advanced biofuels capacity had grown to more than 800 million gallons, with more than 181 companies producing advanced biofuels made from materials such as feedstock and sugar cane. This cool innovation may serve as a future alternative to fossil fuels on a much greater scale",
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5ece583d4fc334692880cf94"),
+    "name" : "Robotics",
+    "title" : "Boston Dynamics SpotMini",
+    "content" : "Boston Dynamics, known to come up with uncannily agile robots, has unveiled its first commercial product to market, a small, dog-like robot it calls the SpotMini.\r\n\r\nThe launch was announced in May with the founder Marc Raibert adding that by July next year; Boston Dynamics will manufacture SpotMini at the rate of around 1,000 units per year. According to Raibert, SpotMini is currently in the testing stage for use in construction, security, delivery and home assistance applications. The SpotMini moves with the same smooth confidence as its processors rolled out by Boston Dynamics robots with names like Cheetah, Spot and BigDog. SpotMini is 3 feet high and weighs around 55 pounds, and can go where larger robots cannot. The robot comes with an optional snake-like arm, which attaches where a real dog’s head would be, and can perform tasks like opening doors.",
+    "__v" : 0
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5ece58774fc334692880cf97"),
+    "name" : "Nanotechnology",
+    "title" : "Quantum Optomechanics",
+    "content" : "Exploring the quantum-classical boundary.At the heart of modern physics lies a circle to be squared. Experiment tells us time and time again that the world at its most fundamental works according to the counter-intuitive laws of quantum mechanics. And yet the macroscopic world we live in seems solidly classical.Quantum optomechanics could help us resolve this paradox. It uses the pressure of confined photons, the quantum-mechanical particles of light, to manipulate the properties of mechanical objects ranging from the nanoscale to the macroscale.\r\n\r\nRecent experiments have, for example, demonstrated how laser cooling – a technique initially invented to cool clouds of atoms – can be used to curb the vibrations of small mechanical devices. This opens up the fascinating prospect of mechanical resonators operating at the frigid temperatures where quantum effects come into play.\r\n\r\nSuch quantum resonators would have applications in sensing, metrology and quantum information processing, but what I find most intriguing is the possibility that an object visible to the naked eye can be put into a quantum superposition between two separated locations – so it is both here and there. Testing the predictions of quantum theory in a completely new regime of size and mass will bring fresh insights into where the boundary between the classical and the quantum worlds lies – and perhaps even to the great unfinished business of unifying quantum physics and gravity. Markus Aspelmeyer",
+    "__v" : 0
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5ece58df4fc334692880cf9d"),
+    "name" : "Robotics",
+    "title" : "Care OS Smart Mirror",
+    "content" : "Magic mirrors that talk back to you, would not be restricted to be a feature of fairy tales anymore. Science has made technological endeavours reach new heights. The Care OS mirror is another enthralling robotic marvel. The care OS deploys gesture controls and facial recognition to give skincare advice, and plays music and even takes selfies. It is similar to other smartphone apps in development which use the camera to study and analyse its user’s dermatological health. Additionally, it provides advice about hydration and UV exposure, albeit on a much larger, domestic scale.",
+    "__v" : 0
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5ece591b4fc334692880cfa0"),
+    "name" : "Nanotechnology",
+    "title" : "Slow Light",
+    "content" : "Lowering the speed limit.Light, the fastest thing in the cosmos, can be slowed to walking pace or even stopped in its tracks. Who would have thought it?.Actually, it is a sleight of hand: it is not the light that is slowed or stopped, but the information that it carries. Send an energy-tuned pulse of light into a cloud of supercooled atoms known as a Bose-Einstein condensate, and it resonates with the atoms of the condensate, allowing information to be transferred from the light to the atoms. A second laser pulse can then pull the information out of the atoms and carry it away.This is good news. If we can master the fiddly details of the technique, the ability to store light-borne data indefinitely could usher in the age of super-fast optical computers that do away with cumbersome silicon components.",
+    "__v" : 0
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5ece59654fc334692880cfa3"),
+    "name" : "Biotechnology",
+    "title" : "Biosensors",
+    "content" : "Medical technology is becoming increasingly sophisticated. And one key development that will start to shape the industry over the next decade is biosensors. Calibrated and designed to track various biosignatures such as blood pressure, pulse, breathing, and body temperature, biosensors will revolutionize how we monitor our health.\r\n\r\nOne biotech innovation company that’s leading the way is Sensible Medical. They’ve developed a vest monitor to help track the amount of fluid in the lungs of heart failure patients. If it reaches critical levels, the tech can issue an immediate alert to doctors at the hospital, potentially saving countless lives.",
+    "__v" : 0
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5ece59a74fc334692880cfa6"),
+    "name" : "Robotics",
+    "title" : "Robomart",
+    "content" : "Robomart is the world’s first driving store, and makes trips to the grocery store a thing of the past. Robomart is an AI-assisted autonomous vehicle programmed to bring you foodstuffs to order. The robot is a blessing to food retailers who can lease the technology, and autonomously fulfill online grocery orders at a speed of up to 25 miles per hour. Robomart’s pilot launch is scheduled this summer for the Bay Area in California.",
+    "__v" : 0
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5ece59dd4fc334692880cfa9"),
+    "name" : "Biotechnology",
+    "title" : "Bioplastics",
+    "content" : "Environmental and ecological concerns are fast becoming a major area of focus. People are increasingly conscious of the materials they use in their day-to-day lives. One material that has seen the most dramatic shift in the public consciousness is plastic. Estimates state that as much as 12.7million tons of plastic enter the ocean each year. It takes hundreds of years to break down and poses a huge threat to marine life. New strategies are beginning to help reduce our reliance on it. One method to emerge from the biotech industry has been the development of bioplastics.\r\n\r\nMore and more we’re seeing organic materials that will biodegrade over time, or can even be safely eaten, in place of plastic. It’s thought that use of bioplastics may increase 20% a year until 2021. These materials are far less toxic to the environment, while still maintaining many of the benefits of regular plastics.",
+    "__v" : 0
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5ece5a0b4fc334692880cfac"),
+    "name" : "Robotics",
+    "title" : "Sophia",
+    "content" : "Although Sophia the humanoid has been the talk amongst robotic circles, and there have been iterations in previous years, it was at the 2018 CES that Sophia made it to the news. Sophia is the brainchild of Hong Kong’s Hanson Robotics and is one of the most impressive displays of empathetic artificial intelligence and smart technology. Sophia is a milestone in humanoid robotics, and is powered by Google which assists the humanoid hold developed conversations with humans including philosophizing, smart retorts, and even cracking an occasional well-timed joke. While the developer has not announced the commercial applications as yet, Sophia remains a truly stunning example of the possibilities offered by smart AI.",
+    "__v" : 0
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5ece5ca559f8cf50b4635704"),
+    "name" : "Biotechnology",
+    "title" : "Lab-Grown Meat And Plants",
+    "content" : "As the world continues to grow, so does demand for beef, chicken and many other types of meat. Along with a need to provide enough meat for the world’s demand is a change among American millennials to eat more sustainably raised, organic meat. One day, though, we may not even need to raise animals for slaughter.\r\n\r\nOne San Francisco-based startup believes it has the answer and has attracted funding from the likes of Bill Gates and Richard Branson. Memphis Meats is working on developing meat from animal cells in labs, potentially creating the meat we love without killing an animal to get it.\r\n\r\nOther companies are developing “clean meat” and “clean plant” technologies that could replace how we consume and grow our own food within a generation or two.",
+    "__v" : 0
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5ed9dd4044e1c8692c6d962a"),
+    "name" : "astronomy",
+    "title" : "Discovery of Uranus",
+    "content" : "March 13, 1781. The seventh planet – Uranus – was discovered on this date, completely by accident. British astronomer William Herschel was performing a survey of all stars of at least magnitude 8 – stars slightly too faint to be seen with the eye alone, in other words. That’s when he noticed a very faint object – only barely above the limit for viewing with the eye – that that moved in front of the fixed stars. This movement clearly demonstrated the object was closer to us than the stars. At first he thought he had found a comet. Later, he and others realized it was a new planet in orbit around our sun, the first new planet discovered since ancient times.Astronomers later learned they had observed Uranus as far back as 1690. They’d just never really noticed it before. It was Herschel who first realized the true nature of this distant light in our sky. In 1977, astronomers using the Kuiper Airborne Observatory made another serendipitous discovery – of rings around the planet Uranus. That discovery made Uranus the second known ringed planet in our solar system.The closest we humans have come to Uranus was in 1986, when the Voyager 2 spacecraft swung by the planet.",
+    "__v" : 0
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5ed9dd8e44e1c8692c6d962d"),
+    "name" : "nanotechnology",
+    "title" : "Scientists Develop Nano Bubble Water In Japan",
+    "content" : "The National Institute of Advanced Industrial Science and Technology (AIST) and REO developed the world's first 'nanobubble water' technology that allows both fresh-water fish and saltwater fish to live in the same water. M. Takahashi and K. Chiba developed a patented procedure to produce ozone nano-bubble water. NBW3 retains its oxidation ability for more than six months if protected from exposure to ultraviolet rays. Its high stability allows for the bottling and use of NBW3 as a disinfectant solution. The study, by Shinichi Arakawa and colleagues at Tokyo Medical and Dental University and Japan's National Institute of Advanced Industrial Science and Technology, evaluated the bactericidal activities of ozone nano-bubble water -- also known as NBW3 -- against the two main bacterial agents that cause periodontitis as well as its toxicity to human oral tissue cells. Their results showed that NBW3 can kill periodontal pathogens within 30 seconds of exposure, yet has only a minor impact on the viability of oral tissue cells after 24 hours of exposure.",
+    "__v" : 0
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5ed9ddb844e1c8692c6d9630"),
+    "name" : "biotechnology",
+    "title" : "Grow yourself a mushroom lamp",
+    "content" : "Grow-it-yourself is the new do-it-yourself. Mycelia are the vegetative underground parts of mushrooms (their roots). Made mostly of chitin and cellulose, both light-weight and robust, mycelia make for a surprisingly versatile bio-material. Thanks to advances in mycelium technology, mushrooms are now coming to your living room. Bioengineers have created the world’s first mushroom lamp that you can order online and grow yourself. These eco-lamps make for a sustainable and well-designed addition to decorate your home — and they’re biodegradable.",
+    "__v" : 0
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5ed9de2e44e1c8692c6d963f"),
+    "name" : "astronomy",
+    "title" : "Liquid-fueled rocket",
+    "content" : "The first man to give hope to dreams of space travel is American Robert H. Goddard, who successfully launches the world’s first liquid-fueled rocket at Auburn, Massachusetts, on March 16, 1926. The rocket traveled for 2.5 seconds at a speed of about 60 mph, reaching an altitude of 41 feet and landing 184 feet away. The rocket was 10 feet tall, constructed out of thin pipes, and was fueled by liquid oxygen and gasoline. Goddard, born in Worcester, Massachusetts, in 1882, became fascinated with the idea of space travel after reading the H.G. Wells’ science fiction novel War of the Worlds in 1898. He began building gunpowder rockets in 1907 while a student at the Worcester Polytechnic Institute and continued his rocket experiments as a physics doctoral student and then physics professor at Clark University. He was the first to prove that rockets can propel in an airless vacuum-like space and was also the first to explore mathematically the energy and thrust potential of various fuels, including liquid oxygen and liquid hydrogen. He received U.S. patents for his concepts of a multistage rocket and a liquid-fueled rocket, and secured grants from the Smithsonian Institute to continue his research.",
+    "__v" : 0
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5ed9deac44e1c8692c6d9642"),
+    "name" : "biotechnology",
+    "title" : "Good morning, cow-free cow milk",
+    "content" : "We’re entering the post-animal economy, and the dawn of synthetic dairy is here. A new industry has emerged over the past years: cellular agriculture is a scientific field that uses biotechnology to produce proteins and biomolecules typically derived from animals — it’s like brewing beer. These distributed cellular factories let us brew food and beverages more locally and sustainably. At the same time, the technique could alleviate the environmental impact of livestock farming and improve food security (more about this in the next section). For instance, Perfect Day’s cow-free milk contains the same proteins as if produced by an actual cow, minus the cow. And minus lactose. There’s another difference: it has a shelf life of six months, so you can stock it.",
+    "__v" : 0
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5ed9dfd944e1c8692c6d9645"),
+    "name" : "robotics",
+    "title" : "Kuri",
+    "content" : "Kuri looks bright for a massive adoption with its pre-orders already starting to ship. The robot is full of features, including its ability to answer questions and monitor the user’s home which works on an array of sensors. Simple in design and useful around the house, it seems likely that Kuri is the first robot that may soon become a reality in everyday life. These are just a handful of exciting innovations that 2018 has seen so far. With some months more to go, further eye-catching development in the robotics inventions will be soon witnessed. With new developments and inventions in place, it looks like 2018 will be a milestone in the field of robotics development.",
+    "__v" : 0
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5ed9e2c79349236d3863ef9a"),
+    "name" : "astronomy",
+    "title" : "Halley Comet",
+    "content" : "For much of history, comets were thought to be divine omens, atmospheric anomalies or celestial wanderers that flashed through the solar system before vanishing into interstellar space. All that started to change in 1705, when the English astronomer Edmond Halley published his “Synopsis Astronomia Cometicae.” By using Sir Isaac Newton’s gravitational theories to chart the paths of two dozen comets, Halley hit on a provocative new theory: three comets seen in 1531, 1607 and 1682 were actually the same object. Halley argued that the comet orbited the sun and whizzed by the Earth roughly once every 76 years, and he predicted that it would reappear sometime in late 1758 or early 1759. “If it should return, according to our predictions,” he vowed, “impartial posterity will not refuse to acknowledge that this was first discovered by an Englishman.” Halley was eventually proved correct on all counts. Although he died in 1742, his comet appeared in the sky on Christmas night of 1758, right on schedule. Its discovery was hailed as a triumph of scientific reasoning and Newtonian physics.",
+    "__v" : 0
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5ed9e3629349236d3863efb6"),
+    "name" : "astronomy",
+    "title" : "World's first Ballistic missile(V-2)",
+    "content" : "On October 3, 1942, German rocket scientist Wernher von Braun’s brainchild, the V-2 missile, is fired successfully from Peenemunde, as island off Germany’s Baltic coast. It traveled 118 miles. It proved extraordinarily deadly in the war and was the precursor to the Intercontinental Ballistic Missiles (ICBMs) of the postwar era. The V-2 was unique in several ways. First, it was virtually impossible to intercept. Upon launching, the missile rises six miles vertically; it then proceeds on an arced course, cutting off its own fuel according to the range desired. The missile then tips over and falls on its target-at a speed of almost 4,000 mph. It hits with such force that the missile burrows itself into the ground several feet before exploding. It had the potential of flying a distance of 200 miles, and the launch pads were portable, making them impossible to detect before firing.",
+    "__v" : 0
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5ed9e3939349236d3863efb9"),
+    "name" : "nanotechnology",
+    "title" : "Nanosensor Probe",
+    "content" : "Nanosensors are nanoscale devices that measure physical quantities and convert these to signals that can be detected and analyzed. There are several ways proposed today to make nanosensors; these include top-down lithography, bottom-up assembly, and molecular self-assembly. A \"nano-needle\" with a tip about one-thousandth the size of a human hair pokes a living cell, causing it to quiver briefly. Once it is withdrawn from the cell, this ORNL nanosensor detects signs of early DNA damage that can lead to cancer.This nanosensor of high selectivity and sensitivity was developed by a research group led by Tuan Vo-Dinh and his coworkers Guy Griffin and Brian Cullum. The group believes that, by using antibodies targeted to a wide variety of cell chemicals, the nanosensor can monitor in a living cell the presence of proteins and other species of biomedical interest.\r\n",
+    "__v" : 0
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5ed9e3ec9349236d3863efbc"),
+    "name" : "astronomy",
+    "title" : "Extrasolar Planets",
+    "content" : "An extrasolar planet is one that’s outside of our solar system, and astronomers believed in their existence for a long, long time. Yet, it wasn’t until recently that the tools to actually spot one became available; it was only in 1995 when Swiss astronomers Didier Queloz and Michel Mayor discovered a planet in the constellation Pegasus they dubbed 51 Pegasi b. Yeah, astronomers may be great at discovering things but they’re not great at naming them.Not only did Queloz and Mayor finally prove that extrasolar planets are out there, but the method they used has been repeated to find many more. Nearly 500 extrasolar planets are now known to exist, and that’s just the beginning (right now astronomers can only spot ones that are massive). As more and more planets are found, it’s only a matter of time until the most important astronomical discovery in history is made: a planet full of benevolent and sexy aliens. Hurry it up, science!\r\n",
+    "__v" : 0
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5ed9e4199349236d3863efbf"),
+    "name" : "astronomy",
+    "title" : "The Heliocentric Model",
+    "content" : "Astronomers had speculated about heliocentrism (the idea that the Earth revolves around the sun, not the other way around) since ancient times, but in 1543 Copernicus was the first person to actually demonstrate the math behind the idea to prove it was a viable concept. It took a while for Copernicus’ model to become universally accepted. (Get it? Astronomy puns are so easy.) Once it finally took hold it formed the basis of a scientific revolution. It eliminated many of the problems caused by the old geocentric model (it’s tough to make accurate calculations if you think the Earth isn’t moving), making it the first major shift in the field of astronomy since people realised the sun was a star and not an angry God. Also, his discovery made us feel stupid for once thinking we were the centre of the universe. Thanks a lot, Copernicus.\r\n",
+    "__v" : 0
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5ed9e45e9349236d3863efc2"),
+    "name" : "nanotechnology",
+    "title" : "A Final Coating",
+    "content" : "Nano-structured coatings are a great way of adding new surface properties to a product without changing the base materials. Nanocoatings can be applied to an object to dramatically improve functionality – for example, hydrophobic glass upon which raindrops bounce straight off; slippery, hydrophilic medical devices that can be inserted with minimal discomfort; or coatings with highly-antibacterial properties. These specialised coatings are often applied through harsh processes during manufacturing, making it difficult to reapply them to finished products, also limiting what materials can be used in the process. To overcome these limitations, a team of academics from Australia have developed several new methods to apply nanocoating films. In one of these techniques, flexible, multi-layered nano-films can be built and then transferred using a high-strength adhesive layer. Another technique from the same researchers allows a nanocoating to be applied to any surface in a series of two quick spray-on coats. These new coatings enable greater flexibility, easy removal and reapplication.\r\n",
+    "__v" : 0
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5ed9e5629349236d3863f01f"),
+    "name" : "astronomy",
+    "title" : "Herschel Map",
+    "content" : "From 1780 to 1834, telescope maker William Herschel and his sister Caroline systematically mapped the heavens, charting thousands of stars and nebulae in the process. He also discovered Uranus, and if astronomers had stuck with his proposed name of Georgium Sidus (George’s Star) we would have been saved centuries of terrible jokes. Making a map barely counts as a discovery; yet Herschel’s was extremely important, because when it was all finished it revealed the shape and size of the Milky Way galaxy. Not only was it much, much larger than had previously been estimated, but it turned out to be disc shaped, and our own sun was located nowhere near the centre. Herschel’s work cleared up a lot of misconceptions about our own little corner of the universe.",
+    "__v" : 0
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5ed9e5959349236d3863f022"),
+    "name" : "biotechnology",
+    "title" : "Hacking biology with a liquid biocomputer",
+    "content" : "The “Raspberry Pi” for biology is here, and it’s a personal liquid biohacking factory. By miniaturizing biology, we can put sophisticated science into easy-to-use kits. Cell-Free is breaking a billion-year-old processor out of the cell to let anyone, anywhere build biomolecules with this machinery, only without the actual cells. This renders biology more user-friendly, as it eliminates the need for microbial culturing, training, and equipment. They’ve been around in research labs for a while. Making cell-free systems available to all could kick off a new era of “decellularized” do-it-yourself biology. How does it work? You’ll get plasmids carrying the genetic software instructions, like an app. They program the ribosome, essentially a 3D protein printer, to produce different proteins. They could be custom fluorescent colors, vanilla smells, or glow-in-the-dark ink to begin with. ",
+    "__v" : 0
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5ed9e5bd9349236d3863f025"),
+    "name" : "nanotechnology",
+    "title" : "Themopower- New Energy Source",
+    "content" : "MIT scientists at MIT have discovered a previously unknown phenomenon that can cause powerful waves of energy to shoot through minuscule wires known as carbon nanotubes. The discovery could lead to a new way of producing electricity.The phenomenon, described as thermopower waves, “opens up a new area of energy research, which is rare,” says Michael Strano, MIT’s Charles and Hilda Roddey Associate Professor of Chemical Engineering.In the new experiments conducted by Michael Strano and his team, nanotubes were coated with a layer of a reactive fuel that can produce heat by decomposing. This fuel was then ignited at one end of the nanotube using either a laser beam or a high-voltage spark, and the result was a fast-moving thermal wave traveling along the length of the carbon nanotube like a flame speeding along the length of a lit fuse. The heat from the fuel goes into the nanotube, where it travels thousands of times faster than in the fuel itself. As the heat feeds back to the fuel coating, a thermal wave is created that is guided along the nanotube. With a temperature of 3,000 kelvins, this ring of heat speeds along the tube 10,000 times faster than the normal spread of this chemical reaction. The heating produced by that combustion, it turns out, also pushes electrons along the tube, creating a substantial electrical current.",
+    "__v" : 0
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5ed9e5ef9349236d3863f028"),
+    "name" : "robotics",
+    "title" : "Aeolus Bot",
+    "content" : "Unveiled at the Consumer Electronics Show in Las Vegas, Aeolus Bot is the in-home android programmed to pick up the toys, deliver a cold beverage, and vacuum the floors while the user sits back and watches. According to the manufacturer, Aeolus Robot (pronounced “ay-oh-lus”) comes with multifunctional arms that are powered by machine learning and AI; to recognize and adapt to changing environments. The robot also learns, completes tasks, and navigates to redefine the way housework is done and frees valuable time in the busy lives of today’s families. Aeolus Bot is integrated with Amazon Alexa and Google Home, which makes it easy to communicate with an electronic servant maid. Aeolus Bot is made to understand thousands of terms, using built-in cameras, to identify faces and remembers where it last saw items, and adapts to home layouts and routines.",
+    "__v" : 0
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5ed9e63a9349236d3863f02b"),
+    "name" : "astronomy",
+    "title" : "Accelerating Universe",
+    "content" : "The accelerating expansion of the universe is the observation that the expansion of the universe is such that the velocity at which a distant galaxy is receding from the observer is continuously increasing with time. The accelerated expansion was discovered during 1998, by two independent projects, the Supernova Cosmology Project and the High-Z Supernova Search Team, which both used distant type Ia supernovae to measure the acceleration. The idea was that as type Ia supernovae have almost the same intrinsic brightness (a standard candle), and since objects that are further away appear dimmer, we can use the observed brightness of these supernovae to measure the distance to them. The distance can then be compared to the supernovae's cosmological redshift, which measures how much the universe has expanded since the supernova occurred. The unexpected result was that objects in the universe are moving away from one another at an accelerated rate. Cosmologists at the time expected that recession velocity would always be decelerating, due to the gravitational attraction of the matter in the universe. Three members of these two groups have subsequently been awarded Nobel Prizes for their discovery. The accelerated expansion of the universe is thought to have begun since the universe entered its dark-energy-dominated era roughly 4 billion years ago . ",
+    "__v" : 0
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5ed9e6899349236d3863f02e"),
+    "name" : "biotechnology",
+    "title" : "Portable Dialysis",
+    "content" : "More than 15 million adult Americans suffer from diseases of the kidneys, which often impair the ability of the organs to remove toxins from the blood. Standard dialysis involves three long sessions at a hospital per week. But an artificial kidney developed by Los Angeles-based Xcorporeal can clean blood around the clock. The machine is fully automated, battery-operated, waterproof and, at less than 5 pounds, portable. Wearable and portable dialysis devices could potentially improve patient quality of life by allowing patients to continue with their daily activities of life while undergoing dialysis, as well as by loosening—or removing entirely—dietary and fluid restrictions and reducing pill burden. We are therefore potentially at a new dawn in the treatment of dialysis patients with the first generation of wearable and portable dialysis devices, which may well revolutionise the treatment and quality of life for patients with end-stage kidney disease.",
+    "__v" : 0
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5ed9e6b99349236d3863f031"),
+    "name" : "nanotechnology",
+    "title" : "Nanoengineers Invent New Biomaterial",
+    "content" : "Catherine Hockmuth of UC San Diego reports that a new biomaterial designed for repairing damaged human tissue doesn't wrinkle when it is stretched. The invention of nano engineers at the University of California, San Diego marks a significant breakthrough in tissue engineering because it more closely mimics the properties of native human tissue. Shaochen Chen, a professor in the Department of NanoEngineering at the UC San Diego Jacobs School of Engineering, hopes future tissue patches, which are used to repair damaged heart walls, blood vessels, and skin, for example, will be more compatible than the patches available today. This biofabrication technique uses light, precisely controlled mirrors and a computer projection system to build three-dimensional scaffolds with well-defined patterns of any shape for tissue engineering. Shape turned out to be essential to the new material's mechanical property. While most engineered tissue is layered in scaffolds that take the shape of circular or square holes, Chen's team created two new shapes called \"reentrant honeycomb\" and \"cut missing rib.\" Both shapes exhibit the property of negative Poisson's ratio (i.e. not wrinkling when stretched) and maintain this property whether the tissue patch has one or multiple layers.",
+    "__v" : 0
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5ed9e6e49349236d3863f034"),
+    "name" : "astronomy",
+    "title" : "Astronomers Capture First Image of a Black Hole",
+    "content" : "Astronomers announced that at last they had captured an image of the unobservable: a black hole, a cosmic abyss so deep and dense that not even light can escape it. For years, and for all the mounting scientific evidence, black holes have remained marooned in the imaginations of artists and the algorithms of splashy computer models of the kind used in Christopher Nolan's outer-space epic “Interstellar.” Now they are more real than ever. The image, of a lopsided ring of light surrounding a dark circle deep in the heart of a galaxy known as Messier 87, some 55 million light-years away from Earth, resembled the Eye of Sauron, a reminder yet again of the implacable power of nature. It is a smoke ring framing a one-way portal to eternity. To capture the image, astronomers reached across intergalactic space to Messier 87, or M87, a giant galaxy in the constellation Virgo. There, a black hole several billion times more massive than the sun is unleashing a violent jet of energy some 5,000 light-years into space. The image offered a final, ringing affirmation of an idea so disturbing that even Einstein, from whose equations black holes emerged, was loath to accept it.",
+    "__v" : 0
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5ed9e70d9349236d3863f037"),
+    "name" : "robotics",
+    "title" : "Backflipping Mini Cheetah",
+    "content" : "In 2017, we saw Boston Dynamics’ humanoid robot Atlas backflipping off a box, stick the landing, and raise its arms in triumph. Not to be outdone, MIT has developed a mini version of its Cheetah robot, and this tiny quadruped can backflip too. In fact, Mini Cheetah is the first four-legged robot to perform a backflip. Backflipping might not be the most useful skill for a robot to have, but it does display Mini Cheetah’s extraordinary ability to react to its environment. It can land on its feet when dropped, recover from a knock without falling over, and right itself when it does end up the wrong way up. It can also display a range of movements, including a forwards-facing trot-run, spinning whilst moving, and an antelope-like bounce called ‘pronking’.",
+    "__v" : 0
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5ed9e7359349236d3863f03b"),
+    "name" : "biotechnology",
+    "title" : "The “MicrobeMiner” to crowd-source antibiotic discovery",
+    "content" : "We’re at the cusp of the post-antibiotic era, and the discovery of novel antibiotics is becoming a pressing issue. In tech we mine bitcoins, but in biology we mine microbes for novel antibiotics! Streptomyces are bacteria that live in the soil, where they produce a variety of antibiotics. The problem is, about 90 percent of biomolecules remain hidden in an inactive part of the microbe’s DNA, so-called silent operons. That is, unless the biosynthesis is activated. And you guessed it, this is where the MicrobeMiner of startup Prospective Research comes into play: it mimics the stimuli present in the soil matrix to launch this machinery. The MicrobeMiner is, at least in part, crowd-sourced. You can order a crowd-sourced drug discovery collection kit, dig around for a sample, and send it in. Your sample microbes are screened to identify these inactive gene clusters. Afterwards, the platform launches a variety of chemical inducers to unlock these pathways. Et voila, here come the novel antibiotics. The team has already identified molecules that turn this “dirt microbe” into a powerful factory. So there is hope that we can collectively fight rising antibiotic resistance.",
+    "__v" : 0
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5ed9e75e9349236d3863f03e"),
+    "name" : "nanotechnology",
+    "title" : "Silver Germ-Killers",
+    "content" : "Silver kills germs when it oxidizes and releases silver ions, which are lethal to bacteria and yeast. Ancient civilizations used the metal to treat open wounds, and American pioneers tossed silver coins into water storage barrels to keep water fresh. Nanoparticles of silver, which can occur naturally, are more powerful than bigger particles because their large surface area relative to their mass increases the number of ions released. Silver nanoparticles are increasingly being used in everything from self-sanitizing toothbrushes to clothes. It may eventually be used in toothpaste. The ability of tiny particles of silver to kill bacteria has been known for some time, though the research appears to be light on whether the silver also carries health risks. ",
+    "__v" : 0
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5ed9e77b9349236d3863f041"),
+    "name" : "astronomy",
+    "title" : "Lunar Reconnaissance Orbiter",
+    "content" : "The Lunar Reconnaissance Orbiter (LRO) is a NASA robotic spacecraft currently orbiting the Moon in an eccentric polar mapping orbit. Data collected by LRO have been described as essential for planning NASA's future human and robotic missions to the Moon. Its detailed mapping program is identifying safe landing sites, locating potential resources on the Moon, characterizing the radiation environment, and demonstrating new technologies. Launched on June 18, 2009, in conjunction with the Lunar Crater Observation and Sensing Satellite (LCROSS), as the vanguard of NASA's Lunar Precursor Robotic Program, LRO was the first United States mission to the Moon in over ten years. LRO and LCROSS were launched as part of the United States's Vision for Space Exploration program. The probe has made a 3-D map of the Moon's surface at 100-meter resolution and 98.2% coverage (excluding polar areas in deep shadow), including 0.5-meter resolution images of Apollo landing sites. The first images from LRO were published on July 2, 2009, showing a region in the lunar highlands south of Mare Nubium (Sea of Clouds).",
+    "__v" : 0
+}

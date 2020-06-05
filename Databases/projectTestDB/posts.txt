@@ -1,0 +1,23 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ed51a58a34803577c99e740"),
+    "title" : "Three position traffic lights",
+    "content" : "It was invented in 1920 by William Potts. How was it invented:- Although the first traffic signal was invented and installed in London in 1868, William Potts, a policeman from Detroit, deserves the credit for inventing the modern three color traffic light.\r\n\r\nHe rigged it from parts from three colors of railroad lights and some wire and switches. It began replacing policemen directing traffic at the corner of Woodward and Michigan Avenues in 1920. It could control traffic from four directions, and was very successful. Within a year from that first day, Detroit had over a dozen traffic lights in operation.\r\n\r\nPotts does not seem to have patented his invention, and a 1923 patent to Garret Morgan was soon purchased by General Electric (GE) which then began building and marketing traffic lights for the national market. ",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5ed51a9ea34803577c99e741"),
+    "title" : "Zipper",
+    "content" : "It was invented in 1893 by Whitcomb Judson . How was it invented: The story begins with Elias Howe, the inventor of the sewing machine. In 1851. Howe received a patent for an \"Automatic, Continuous Clothing Closure.\" It never went beyond that, and because of the success of the sewing machine, Howe never pursued the system commercially.\r\n\r\nFast forward to 1893, Whitcomb Judson markets a \"Clasp Locker\" device, similar to Howe's. But, unlike Howe, Judson was first to market and is credited as \"inventor of the zipper,\" although the zipper name wasn't mainstream until the B. F. Goodrich Company started using the term.\r\n\r\nIn 1917, a Swedish-born electrical engineer named Gideon Sundback invented a new-and-improved system, calling it a \"Seperable Fastner,\" which he received a patent for. Below is the patent:",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5ed51af3a34803577c99e742"),
+    "title" : "Headphones",
+    "content" : "It was invented in 1910 by Nathaniel Baldwin. How was it invented: Nathaniel Baldwin was workinh at a hydroelectric plant in Utah, where he experimented with sound amplification using compressed air. Baldwin used an ideea for a telephonic feature to invent a more sensitive telephonic receiver in 1910 and later sold versions on a contract to the U.S. Navy. In 1910, a letter written in purple ink on blue and pink paper came to the U.S. Navy from Baldwin, whose missive arrived with a pair of prototype telephone headsets offered for military testing. While the request wasn’t immediately taken seriously, the headphones were eventually tested and found to be a drastic improvement over the model then being used by Naval radio operators. The Navy placed an order for Baldwin’s headphones, only to learn that Baldwin was building them in his kitchen and could only produce 10 at a time. Wireless Specialty Apparatus Co. ended up partnering with Baldwin to manufacture the headphones. \r\n\r\nLater, in 1957, EMI would release the first commercial stereo headphones. \r\n\r\n",
+    "__v" : 0
+}

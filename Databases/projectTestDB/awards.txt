@@ -1,0 +1,63 @@
+/* 1 */
+{
+    "_id" : ObjectId("5ece5deb59f8cf50b463571a"),
+    "name" : "WIPO Medal for Inventors",
+    "description" : "The WIPO Medal for Inventors was launched in 1979 to stimulate inventive and innovative activity around the world and to recognize the contribution of inventors to national wealth and development. The WIPO Medal for Inventors is offered by national and international organizations to outstanding inventors. Particular attention is given to those who have made inventions which are considered to be significant contributions to the economic and technological development of their countries. Candidates for the award of the WIPO Medal for Inventors must have obtained or applied for a patent or utility model for their innovation. WIPO Medals are offered in the context of international exhibitions or competitions at the highest national level (such as the International Exhibition of Inventions, Geneva, or the Seoul International Invention Fair). Since 1979 some 2,000 medals have been bestowed upon inventors from over 130 countries, the majority from developing countries and countries in transition. The selection procedure is the responsibility of the organizers, within the framework of the guidelines provided by WIPO.",
+    "__v" : 0
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5ece5f3259f8cf50b463571f"),
+    "name" : "European Inventor Award",
+    "description" : "The European Inventor Award or European Inventor awards (formerly European Inventor of the Year Award, renamed in 2010), are presented annually by the European Patent Office, sometimes supported by the respective Presidency of the Council of the European Union and by the European Commission, to inventors who have made a significant contribution to innovation, economy and society in Europe. Inventions from all technological fields are considered for this award. The winners in each category are presented with an award shaped like a sail. There is no cash prize associated with the award.",
+    "__v" : 0
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5ece5f4c59f8cf50b463573a"),
+    "name" : "The annual Ericsson Inventor of the Year award",
+    "description" : "The annual Ericsson Inventor of the Year award acknowledges the talent and hard work of those whose technology innovations enrich the company’s portfolio. For 140 years, the ideas, technology and people of the company have created a monumental impact in many different ways and on many different levels. As a result, they have transformed lives, industries, and society as a whole.",
+    "__v" : 0
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5ece5f6559f8cf50b463573d"),
+    "name" : "Edison Awards",
+    "description" : "Edison Awards is a company that runs an annual competition honoring excellence in innovation in a broad range of categories.The Edison Best New Product Awards™ is an annual competition honoring excellence in new product and service development, marketing, human-centered design, and innovation. The competition is open to innovative organizations across the globe. The Edison Awards are focused on the innovators as much as the innovations – a unique distinction in the world of award programs. Award winners represent \"game changing\" products and services, as well as excellence and leadership in innovation around four criteria: Concept, Value, Delivery, and Impact. An Edison Award represents significant value to the award winner and to the cause of innovation and highlights the strong marketing value of an unbiased 3rd-party validation.",
+    "__v" : 0
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5ece5f7b59f8cf50b4635740"),
+    "name" : "National Medal Of Technology And Innovation",
+    "description" : "The National Medal of Technology and Innovation (formerly the National Medal of Technology) is an honor granted by the President of the United States to American inventors and innovators who have made significant contributions to the development of new and important technology.he award may be granted to a specific person, to a group of people or to an entire organization or corporation. It is the highest honor the United States can confer to a US citizen for achievements related to technological progress.The National Medal of Technology was created in 1980 by the United States Congress under the Stevenson-Wydler Technology Innovation Act. It was a bipartisan effort to foster technological innovation and the technological competitiveness of the United States in the international arena. The first National Medals of Technology were issued in 1985 by then-U.S. President Ronald Reagan to 12 individuals and one company.[2] Among the first recipients were Steve Jobs and Stephen Wozniak, founders of Apple Computer. The medal has since been awarded annually.",
+    "__v" : 0
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5ece5f9359f8cf50b463574d"),
+    "name" : "Albert Einstein World Award for Science",
+    "description" : "The Albert Einstein World Award for Science is an annual award given by the World Cultural Council \"as a means of recognition and encouragement for scientific and technological research and development\", with special consideration for researches which \"have brought true benefit and well being to mankind\" Nominees for the “Albert Einstein” World Award of Science should be eminent scientists whose achievements can serve as an inspiration for future generations.",
+    "__v" : 0
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5ece5fac59f8cf50b4635750"),
+    "name" : "Innovationspreis Bayern",
+    "description" : "The Innovationspreis Bayern (Bavarian innovation award) is awarded by the Bavarian Ministry of Economic Affairs, Regional Development and Energy, the association of Bavarian chambers of commerce and industry and the association of Bavarian chambers of crafts and trades in recognition of outstanding innovative achievements. It pays tribute to innovations that have started gaining success in the market or can be expected to soon have success in the market. President Cornelia Rudloff-Schäffer is a member of the high-profile jury, which selects the winners of three main awards and a maximum of four special awards. Innovationspreis Bayern is a recognition award which is not financially funded. It is awarded biennially.",
+    "__v" : 0
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5ece5fbf59f8cf50b4635753"),
+    "name" : "Deutscher Zukunftspreis – The Federal President’s Award For Technology And Innovation",
+    "description" : "The Deutscher Zukunftspreis is an accolade for excellent inventions; it recognises the scientific-technological level of innovation, successful commercialisation and the creation of sustainable jobs. Furthermore, it aims to encourage young people to get involved in science and technology. This prize is presented personally by the Federal President. President Cornelia Rudloff-Schäffer is a member of the board of trustees, which determines the final criteria for the selection process. As an institution entitled to propose candidates, the DPMA also nominates projects for the Deutscher Zukunftspreis to the jury.",
+    "__v" : 0
+}

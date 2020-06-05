@@ -132,10 +132,10 @@ app.get("/imageCategory", function(req,res) {
   res.render("imageCategory");
 });
 
-app.get("/services", function(req,res) {
+app.get("/more", function(req,res) {
   Post.find({},function(err,posts) {
     if(!err) {
-    res.render("services",{ posts: posts });
+    res.render("more",{ posts: posts });
     } 
   });
 });

@@ -1,6 +1,13 @@
 <%- include("partials/header"); -%>
 
-    <h1><%= title %></h1> 
-    <p style="color: black;"><%= content %></p>
+<div class="container" style="margin-bottom: 200px; padding: 35px; text-align:center; align-content:center; ">            
+    <div class="wow lightSpeedIn" data-wow-offset="0" data-wow-delay="0.5s">
+        <div class="wow shake" data-wow-offset="0.5" data-wow-delay="1s">
+            <h3 style="color: black; font-family:fantasy; font-size:28px; font-weight:bold;"><%= title %></h3>
+        </div>                
+        <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+        <p style="color: black; font-family:serif; font-size:18px; font-weight:italic;"><%= content %></p>
+    </div>
+</div>
 
 <%- include("partials/footer"); -%>

@@ -1,9 +1,15 @@
 <%- include("partials/header"); -%>
 
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,500&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="js/parallax.js"></script>
 <style>
+  p {
+    font-family: 'Playfair Display', serif;
+  }
 
   video {
     margin-top: -40px;
@@ -28,24 +34,21 @@
   }
 }
 </style>
-
-  <div class="services">
+  
     <div class="container">
-      <div class="text-center">
-        <div class="services-box">
-          <h1>Stories behind some of most important, useful inventions in human history</h1>
-          <p>The earliest human inventions included stone tools, fire, boats, spears, glue, clothing and other items that we still use today.Many know the stories behind some of the most famous inventions, like the wheel, the automobile, the engine, the light bulb and the computer. But what about those every day inventions that we don't normally think about? The ones that we, perhaps, take for granted? Here's a look at the stories behind some of mankind's most important and useful inventions:</p>
+      <div class="text-center" style="font-family: 'Archivo Narrow', sans-serif;">
+        <h1>Stories behind some of most important, useful inventions in human history</h1>
+          <p style=" font-size: 17px;">The earliest human inventions included stone tools, fire, boats, spears, glue, clothing and other items that we still use today.Many know the stories behind some of the most famous inventions, like the wheel, the automobile, the engine, the light bulb and the computer. But what about those every day inventions that we don't normally think about? The ones that we, perhaps, take for granted? Here's a look at the stories behind some of mankind's most important and useful inventions:</p>
           <%  posts.forEach(function(post){ %>
             <h2><%=post.title%></h2>
-            <p style="color: black;">
+            <p style="color: black;  font-size: 17px;">
             <%=post.content.substring(0, 500) + " ..."%>
              <a href="/posts/<%=post._id%>">Read More</a>
             </p>          
             <% }) %>
-        </div>
       </div>
     </div>
-  </div>
+  
 
   <div class="parallax-window" data-parallax="scroll" data-image-src="images/dog.jpg" style="height: 300px;">
     <h1 style="color: black; font-size: 30px; font-family: 'Lobster', cursive; padding-top: 70px; text-align: center;">
@@ -73,7 +76,7 @@
           <iframe width="370" height="280" src="https://www.youtube.com/embed/c0bsKc4tiuY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <div class="card-body">
             <h5 class="card-title">Why you should make useless things | Simone Giertz</h5>
-            <p class="card-text" style="color: black;">In this joyful, heartfelt talk featuring demos of her wonderfully wacky creations, Simone Giertz shares her craft: making useless robots. Her inventions -- designed to chop vegetables, cut hair, apply lipstick and more -- rarely (if ever) succeed, and that's the point. "The true beauty of making useless things [is] this acknowledgment that you don't always know what the best answer is," Giertz says. "It turns off that voice in your head that tells you that you know exactly how the world works. Maybe a toothbrush helmet isn't the answer, but at least you're asking the question."</p>
+            <p class="card-text" style="color: black;">In this joyful, heartfelt talk featuring demos of her wonderfully wacky creations, Simone Giertz shares her craft: making useless robots. Her inventions -- designed to chop vegetables, cut hair, apply lipstick and more -- rarely (if ever) succeed, and that's the point. "The true beauty of making useless things [is] this acknowledgment that you don't always know what the best answer is," Giertz says. </p>
             <a href="https://youtu.be/c0bsKc4tiuY" class="btn btn-primary">Watch</a>
           </div>
         </div>
@@ -83,7 +86,7 @@
           <iframe width="370" height="280" src="https://www.youtube.com/embed/Mtjatz9r-Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           <div class="card-body">
             <h5 class="card-title">Everyone should invent | Mark Champkins | TEDxLondon</h5>
-            <p class="card-text" style="color: black;">Mark Champkins thinks there's an inventor in all of us. He urges us to embrace our ideas - even the bad ones - and reconnect with our inner-child.Mark Champkins is a product designer and the Science Museum’s first ever “Inventor in Residence”. Mark studied Manufacturing Engineering at the University of Cambridge and Industrial Design Engineering at the Royal College of Art (RCA). Whilst at the RCA, Champkins designed a range of Self-Heating Crockery which won British Invention of the Year.</p>
+            <p class="card-text" style="color: black;">Mark Champkins thinks there's an inventor in all of us. He urges us to embrace our ideas - even the bad ones - and reconnect with our inner-child.Mark Champkins is a product designer and the Science Museum’s first ever “Inventor in Residence”. Mark studied Manufacturing Engineering at the University of Cambridge and Industrial Design Engineering at the Royal College of Art (RCA) where he designed a range of Self-Heating Crockery which won British Invention of the Year.</p>
             <a href="https://youtu.be/Q2eRCsZLeQA" class="btn btn-primary">Watch</a>
           </div>
         </div>
@@ -104,7 +107,7 @@
       <div class="container">
       <div class="container">
         <div class="col-md-8 col-md-offset-2">
-          <h3>Do you have some good ideas for inventions and discoveries and wanna share with others then fill these details and we'll publish your ideas here on our website.</h3>
+          <h3>Do you have some good ideas for inventions and discoveries and wanna share with others then fill these details and we might publish your ideas here on our website.</h3>
             <form action="/ideas" method="post" role="form" onSubmit="window.location.reload();" >
               <div class="form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

@@ -15,7 +15,7 @@
 
 
 body {
-	font-family:'Open Sans', Arial, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 	font-size:14px;
 	font-weight:300;
 	line-height:1.6em;
@@ -189,50 +189,6 @@ a:hover {
 }
 
 /*===========================
- Feature
-============================ */
-.features p {
-	margin-bottom:70px;
-	color:#333;
-}
-
-.main-feature {
-	padding-bottom:50px;
-	padding-top:80px;
-}
-
-.main-feature .media {
-	margin-top:30px;
-	margin-bottom:30px;
-}
-
-.main-feature .media p {
-	margin-top:20px;
-	margin-bottom:30px;
-	color:#333;
-}
-
-.main-feature .media i {
-	border-radius:50%;
-	padding:20px;
-	background:#ED502E;
-	color:#fff;
-}
-
-.main-feature .text-center {
-	background:#fD502E;
-	padding:70px;
-	margin-top:30px;
-}
-
-.main-feature .text-center h2,p {
-	color:#fff;
-}
-
-.main-feature .text-center p {
-	color:#fff;
-}
-/*===========================
 	about-us
 ============================ */
 
@@ -240,49 +196,7 @@ a:hover {
 	background:#f9f9f9;
 	margin-top:-50px;
 	padding-top:90px;
-	padding-bottom:80px;
-}
-
-.about-us img {
-	margin-top:50px;
-	border-radius:20%;
-	margin-bottom:20px;
-}
-
-/*===========================
-	services
-============================ */
-.services {
-	background:#f9f9f9;
-	margin-top:-50px;
-	padding-top:90px;
-	padding-bottom:50px;
-}
-
-.services img {
-	margin-top:50px;
-	border-radius:50%;
-	margin-bottom:20px;
-}
-
-.services-box i {
-	padding:50px;
-	margin-top:30px;
-	margin-bottom:40px;
-	border-radius:50%;
-}
-.services-box i.fa-rocket {
-	background-color: #00abf0;	
-}
-.services-box i.fa-cogs {
-	background-color: #02FE7C;	
-}
-.services-box i.fa-eye {
-	background-color: #0077b5;	
-}
-
-.services-box h4 {
-	margin-bottom:20px;
+	padding-bottom:400px;
 }
 
 .skills {
@@ -295,264 +209,11 @@ a:hover {
 	padding-bottom:50px;
 }
 
-.skill h2{
-  margin-bottom: 25px;
-}
-
-.progress-wrap{
-  position: relative;
-}
-
-.progress .color1,
-.progress .color1 .bar-width{
-  background: #2d7da4;
-}
-
-.progress .color2,
-.progress .color2 .bar-width{
-  background: #6aa42f;
-}
-
-.progress .color3,
-.progress .color3 .bar-width{
-  background: #ffcc33;
-}
-
-.progress .color4,
-.progress .color4 .bar-width{
-  background: #db3615;
-}
-
-.progress, 
-.progress-bar {
-  height: 50px;
-  line-height: 20px;
-  background: #e6e6e6;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  border-radius: 0;
-  overflow: visible;
-  text-align: right;
-}
-
-.progress{
-  position: relative;
-}
-
-.progress .bar-width{
-  position: absolute;
-  width: 40px;
-  height: 20px;
-  line-height: 20px;
-  text-align: center;
-  font-size: 12px;
-  font-weight: 700;
-  top: -30px;
-  border-radius: 2px;
-  margin-left: -30px;
-}
-
-.progress span{
-  position: relative;
-}
-
-.progress span:before{
-  content: " ";
-  position: absolute;
-  width: auto;
-  height: auto;
-  border-width: 8px 5px;
-  border-style: solid;
-  bottom: -15px;
-  right: 8px;
-}
-
-.progress .color1 span:before{
-  border-color: #2d7da4 transparent transparent transparent;
-}
-
-.progress .color2 span:before{
-  border-color: #6aa42f transparent transparent transparent;
-}
-
-.progress .color3 span:before{
-  border-color: #ffcc33 transparent transparent transparent;
-}
-
-.progress .color4 span:before{
-  border-color: #db3615 transparent transparent transparent;
-}
-
-.services-skill {
-	margin-top:30px;
-	margin-bottom:50px;
-	padding-bottom:50px;
-}
-
 /*===========================
 	blog
 ============================ */
 #blog {
 	margin-top:50px;
-}
-
-.widget {
-  margin-bottom: 60px;
-  padding-left: 0;
-}
-
-.single_comments {
-  margin-bottom: 20px;
-}
-
-.single_comments img {
-  float: left;
-  margin-right: 10px;
-  margin-top: 5px;
-}
-
-.single_comments p {
-  margin-bottom: 0;
-}
-
-.widget .entry-meta span {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.widget h3 {
-  color: #000;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-}
-
-.blog_category{
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-
-.blog_category li{
-  float:none;
-  margin-bottom:20px;
-}
-
-.blog_category li a {
-  background:#f5f5f5;
-  border-radius: 4px;
-  color: #888;
-  display: inline-block;
-  padding: 5px 15px;
-}
-
-.blog_category li a:hover{
-  background:#ED502E;
-  color: #fff;
-}
-
- .badge:before {
-  border-color: transparent transparent transparent #ED502E;
-  border-style: solid;
-  border-width: 10px;
-  bottom: -8px;
-  content: "";
-  height: 0;
-  left: 5px;
-  position: absolute;
-  z-index: -99999;
-}
-
-.badge {
-  background-color: #ED502E;
-  border-radius: 5px;
-  color: #fff;
-  padding: 8px;
-  position: relative;
-  left: 60px;
-  top: -18px;
-  font-weight: normal;
-}
-
-.blog_archieve {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-
-.blog_archieve li {
-  padding: 10px 0;
-  border-bottom: 1px solid #f5f5f5;
-}
-
-.blog_archieve li:first-child {
-  padding-top: 0;
-}
-
-ul.gallery {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-ul.gallery li {
-  display: block;
-  width: 60px;
-  padding: 0;
-  margin: 0 4px 4px 0;
-  float: left;
-}
-
-ul.faq {
-  list-style: none;
-  margin: 0;
-}
-
-ul.faq li {
-  margin-top: 30px;
-}
-
-ul.faq li:first-child {
-  margin-top: 0;
-}
-
-ul.faq li span.number {
-  display: block;
-  float: left;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background: #34495e;
-  color: #fff;
-  font-size: 24px;
-}
-
-ul.faq li > div {
-  margin-left: 70px;
-}
-
-ul.faq li > div h3 {
-  margin-top: 0;
-}
-
-
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .blog-item {
@@ -575,10 +236,6 @@ ul.faq li > div h3 {
   font-size: 30px;
 }
 
-.readmore{
-  margin-top: 0;
-}
-
 .blog .blog-item .blog-content h4 {
   /* color: #858586; */
   margin-bottom: 40px;
@@ -591,109 +248,6 @@ ul.faq li > div h3 {
   /* color:#858586; */
 }
 
-.blog .blog-item .entry-meta {
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.blog .blog-item .entry-meta > span {
-  background: #f5f5f5;
-  border-top: 1px solid #fff;
-  display: block;
-  font-size: 12px;
-  overflow: hidden;
-  padding: 5px;
-  text-align: left;
-}
-
-#publish_date {
-  background: #ED502E;
-  border-bottom: 5px solid #4e4e4e;
-  color: #fff;
-  padding: 5px 0;
-  text-align: center;
-}
-
-.blog .blog-item .entry-meta > span {
-  color: #ccc;
-}
-
-.blog .blog-item .entry-meta > span a {
-  font-size: 12px;
-  margin-left: 3px;
-  font-weight: 300;
-  color: #888;
-}
-
-ul.pagination > li > a {
-  border: 1px solid #F1F1F1;
-  margin-right:5px;
-  border-radius: 5px;
-  font-size: 16px;
-  padding: 5px 14px;
-}
-
-ul.pagination > li > a i{
-  margin-left:5px;
-  margin-right:5px;
-}
-
-ul.pagination > li.active > a, 
-ul.pagination > li:hover > a {
-  background-color: #ED502E !important;
-  border-color: #ED502E !important;
-  color: #fff;
-}
-
-.search_box {
-  background-image: url("../images/search_icon.png");
-  background-position: 314px 15px;
-  background-repeat: no-repeat;
-  border-color: #DEDEDE;
-  height: 48px;
-  outline: medium none;
-  box-shadow: none;
-}
-
-.form-control:focus {
-  box-shadow:none;
-  outline: 0 none;
-}
-
-ul.tag-cloud, 
-ul.sidebar-gallery {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.tag-cloud li{
-    display: inline-block;
-    margin-bottom: 3px;
-}
-
-.tag-cloud li a {
-  background: #f5f5f5;
-  color: #888;
-  border: 0;
-  border-radius: 4px;
-  padding: 8px 15px;
-}
-
-.tag-cloud li a:hover{
-  background:#ED502E;
-  color: #fff;  
-}
-
-.sidebar-gallery li{
-  display: inline-block;
-  margin: 0 10px 10px 0;
-}
-
-.sidebar-gallery li a {
-  border-radius: 4px;
-  display: inline-block;
-}
 
 /*===========================
 	portfolio
@@ -810,68 +364,11 @@ ul.sidebar-gallery {
   padding:0;
 }
 
-/* Start: Recommended Isotope styles */
-/**** Isotope Filtering ****/
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-/**** Isotope CSS3 transitions ****/
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-  -moz-transition-duration: 0.8s;
-  -ms-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-}
-
-.isotope {
-  -webkit-transition-property: height, width;
-  -moz-transition-property: height, width;
-  -ms-transition-property: height, width;
-  -o-transition-property: height, width;
-  transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: -webkit-transform, opacity;
-  -moz-transition-property: -moz-transform, opacity;
-  -ms-transition-property: -ms-transform, opacity;
-  -o-transition-property: -o-transform, opacity;
-  transition-property: transform, opacity;
-}
-
-/**** disabling Isotope CSS3 transitions ****/
-.isotope.no-transition,
-.isotope.no-transition .isotope-item,
-.isotope .isotope-item.no-transition {
-  -webkit-transition-duration: 0s;
-  -moz-transition-duration: 0s;
-  -ms-transition-duration: 0s;
-  -o-transition-duration: 0s;
-  transition-duration: 0s;
-}
-
-/* End: Recommended Isotope styles */
-/* disable CSS transitions for containers with infinite scrolling*/
-.isotope.infinite-scrolling {
-  -webkit-transition: none;
-  -moz-transition: none;
-  -ms-transition: none;
-  -o-transition: none;
-  transition: none;
-}
-
 /*===========================
 	contact
 ============================ */
 /* --- Map --- */
+
 .map{
 	position:relative;
 	margin-top:50px;
@@ -1080,3 +577,4 @@ a.scrollup:hover{
 	background-color:#ED502E;
 	color:#fff;;	
 }
+

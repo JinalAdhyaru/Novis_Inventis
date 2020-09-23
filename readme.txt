@@ -6,4 +6,4 @@ This website is basically for students upto class 10th.This webiste will encoura
 
 The stack used is html,css and bootstrap for front-end,node js ,express-ejs for backend and the database used is mongodb.
 
- 
+ The deployment link is : https://whispering-stream-33857.herokuapp.com/

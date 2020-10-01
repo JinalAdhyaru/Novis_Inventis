@@ -108,6 +108,12 @@ a:hover {
 	color: #ED502E;
 }
 
+.navbar-brand > img {
+	width: 100%;
+	max-width: 90px;
+	height: auto;
+}
+
 .menu {
 	/* font-size:15px;
 	float:right;
@@ -188,11 +194,20 @@ a:hover {
 	background:#fff;
 }
 
+#QuoteDisplay h2 {
+    color: white;
+}
+
+#QuoteDisplay p {
+    color: white;
+}
+
+
 /*===========================
 	about-us
 ============================ */
 
-.about-us {
+/* .about-us {
 	background:#f9f9f9;
 	margin-top:-50px;
 	padding-top:90px;
@@ -386,7 +401,7 @@ a:hover {
 	margin-top:60px;
 	margin-bottom:50px;
 	padding-bottom:50px;
-}
+} */
 
 /*===========================
 	blog

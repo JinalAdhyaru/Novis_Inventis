@@ -28,7 +28,8 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 //mongodb URI
-const url = 'mongodb://localhost:27017/imagesDB'
+//const url = 'mongodb://localhost:27017/imagesDB'
+const url = 'mongodb+srv://admin-jinal:test123@cluster0.bfoik.mongodb.net/imagesDB?retryWrites=true&w=majority'
 const conn = mongoose.createConnection(url, ({useUnifiedTopology: true, useNewUrlParser: true}));
 
 //initialize gridfs
@@ -59,7 +60,7 @@ const storage = new GridFsStorage({
 const upload = multer({ storage });
 
 
-mongoose.connect("mongodb://localhost:27017/projectTestDB", {useUnifiedTopology: true ,useNewUrlParser: true });
+mongoose.connect("mongodb+srv://admin-jinal:test123@cluster0.bfoik.mongodb.net/projectTestDB", {useUnifiedTopology: true ,useNewUrlParser: true });
 mongoose.set("useCreateIndex",true);
 
 const userSchema = new mongoose.Schema ({
@@ -539,7 +540,12 @@ app.post("/deleteCategory", function(req,res) {
         }
     });
 });
-  
-app.listen(3000, function() {
-    console.log("Server started on port 3000");
+
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+app.listen(port, function() {
+    console.log("Server started on successfully");
 });
+
